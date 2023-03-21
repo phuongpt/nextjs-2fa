@@ -7,7 +7,7 @@ function getSecondsUntil(date: Date) {
 }
 
 export const useCountdown = (endDate: Date) => {
-  const [secondsRemaining, setSecondsRemaining] = useState<number>()
+  const [secondsRemaining, setSecondsRemaining] = useState<number>(0)
   useEffect(() => {
     if (!endDate) {
       return

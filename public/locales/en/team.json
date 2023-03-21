@@ -1,7 +1,7 @@
 {
   "team.mainPage.title": "Team members",
   "team.mainPage.heading": "Start managing your team here.",
-  "team.mainPage.desc": "Add your team members to Klearing so they can use all the great features we offer. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.",
+  "team.mainPage.desc": "Add your team members to App so they can use all the great features we offer. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.",
   "team.mainPage.addMember": "Add team member",
   "team.mainPage.continue": "Continue",
   "team.addMember.profile": "Profile",
@@ -23,7 +23,7 @@
     "banking": {
       "text": "Banking",
       "title": "Banking permission",
-      "desc": "Protect your business by controlling what your team can see and do across Klearing.",
+      "desc": "Protect your business by controlling what your team can see and do across App.",
       "role": {
         "01": "Read only access",
         "02": "Add/edit recipient",
@@ -44,7 +44,7 @@
     "channels": {
       "text": "Channels",
       "title": "Channels permission",
-      "desc": "Protect your business by controlling what your team can see and do across Klearing.",
+      "desc": "Protect your business by controlling what your team can see and do across App.",
       "role": {
         "01": "Invite/connect suppliers",
         "02": "Invite/connect customers"
@@ -53,7 +53,7 @@
     "supplier_invoices": {
       "text": "Supplier invoices",
       "title": "Supplier invoices permission",
-      "desc": "Protect your business by controlling what your team can see and do across Klearing.",
+      "desc": "Protect your business by controlling what your team can see and do across App.",
       "limit": "Limit",
       "role": {
         "01": "Upload invoice",

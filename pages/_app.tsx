@@ -47,6 +47,7 @@ export const muiTheme = createTheme({
   },
 })
 
+
 function LogOutActionDispatcher() {
   const { accessToken } = useTokenClaims<TokenClaims>()
   const dispatch = useDispatch()
@@ -56,15 +57,12 @@ function LogOutActionDispatcher() {
       dispatch({ type: LOG_OUT })
       dispatch(unsetCurrentUser())
       dispatch(unsetCurrentAuth())
-      dispatch({
-        type: USER_SET_ACCOUNT_ID,
-        payload: null,
-      })
     }
   }, [accessToken])
 
   return null
 }
+
 
 function App({ Component, pageProps }: AppProps) {
   return <StyledEngineProvider injectFirst>

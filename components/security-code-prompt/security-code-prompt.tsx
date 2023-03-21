@@ -99,7 +99,7 @@ export const SecurityCodePrompt = ({
       elevation={0}
       className={!customClassName ? '' : customClassName}
     >
-      <Title>{t('CodePrompt.KlearingSecurity')}</Title>
+      <Title>{t('CodePrompt.AppSecurity')}</Title>
       <Subheading data-cy="securitysubheading">
         {hasError
           ? getError()

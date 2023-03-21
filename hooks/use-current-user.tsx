@@ -25,35 +25,17 @@ export const useCurrentUser = () => {
 
   const getData = async () => {
     try {
-      const { accessToken } = getTokens()
-      const [userRes, authRes] = await Promise.all([
+      const [authRes] = await Promise.all([
         fetcherWithAuth('/auth/current-user', {
           method: 'GET',
-        }),
-        fetcherWithAuth('/auth/validate', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            token: accessToken,
-          }),
-        }),
+        })
       ])
 
-      if (userRes) {
-        const converted = {
-          ...userRes,
-          displayName: [userRes.firstName, userRes.lastName]
-            .filter(Boolean)
-            .join(' '),
-        }
-        dispatch(setCurrentUser(converted))
-      }
-
       if (authRes) {
+        dispatch(setCurrentUser(authRes))
         dispatch(setCurrentAuth(authRes))
       }
+
     } catch (e) {
       dispatch(unsetCurrentAuth())
       dispatch(unsetCurrentUser())

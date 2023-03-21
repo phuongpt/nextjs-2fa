@@ -1,3 +1,4 @@
+import { BASE_API_URL } from '../../constants'
 import { getTokens, setTokens } from '../../libs/auth/src'
 import { callApi } from '../call-api'
 import {
@@ -31,7 +32,6 @@ export async function logIn(body: LoginUserRequest) {
     },
     body: JSON.stringify(body),
   })
-
   return response
 }
 

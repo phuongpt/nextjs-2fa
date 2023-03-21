@@ -4,9 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 8089",
+    "prebuild": "jest --bail -u",
     "build": "next build",
-    "start": "next start -p 8089",
-    "lint": "next lint"
+    "start": "next start",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "clean-gone": "scripts/clean-gone-branches.sh",
+    "coverage": "jest --coverage",
+    "storybook": "start-storybook -p 8098 -s ./public",
+    "build-storybook": "build-storybook -o docs-build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",

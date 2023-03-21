@@ -7,7 +7,7 @@
     "IdentityNotVerified": "Identity verification failed",
     "PleaseWait": "Please wait a few moments while we validate your information..",
     "HasBeenVerified": "Your identity has been verified.",
-    "CouldNotBeVerified": "Your identity could not be verified. <br> Please contact us at <a id='support-link' href='mailto:support@klearing.com'>support@klearing.com</a>. <br> We will schedule an identity verification through a video call."
+    "CouldNotBeVerified": "Your identity could not be verified. <br> Please contact us at <a id='support-link' href='mailto:support@App.com'>support@App.com</a>. <br> We will schedule an identity verification through a video call."
   },
   "phrases": {
     "country_select": {

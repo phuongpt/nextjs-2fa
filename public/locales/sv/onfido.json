@@ -7,6 +7,6 @@
     "IdentityNotVerified": "Identitetsverifiering misslyckades",
     "PleaseWait": "Vänta ett ögonblick medan vi validerar din information..",
     "HasBeenVerified": "Din identitet har verifierats.",
-    "CouldNotBeVerified": "Din identitet kunde inte verifieras. <br> Kontakta oss på <a id='support-link' href='mailto:support@klearing.com'>support@klearing.com</a>. <br> Vi kommer att schemalägga en identitetsverifiering genom ett videosamtal."
+    "CouldNotBeVerified": "Din identitet kunde inte verifieras. <br> Kontakta oss på <a id='support-link' href='mailto:support@App.com'>support@App.com</a>. <br> Vi kommer att schemalägga en identitetsverifiering genom ett videosamtal."
   }
 }

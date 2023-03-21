@@ -48,30 +48,30 @@ const config = {
 
   productionBrowserSourceMaps: true,
 
-  async redirects() {
-    return [
-      {
-        source: '/signup',
-        destination:
-          process.env.NEXT_PUBLIC_NEW_SIGNUP_FLOW === 'false'
-            ? '/signup/0'
-            : '/signup/account-type',
-        permanent: true,
-      },
-    ]
-  },
-  async rewrites() {
-    if (process.env.NEXT_PUBLIC_PROXY_ENABLED === 'true') {
-      console.log('RUNNING APPLICATION WITH PROXY')
-      return []
-    }
-    return [
-      {
-        source: '/api/:slug*',
-        destination: '/404',
-      },
-    ]
-  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/signup',
+  //       destination:
+  //         process.env.NEXT_PUBLIC_NEW_SIGNUP_FLOW === 'false'
+  //           ? '/signup/0'
+  //           : '/signup/account-type',
+  //       permanent: true,
+  //     },
+  //   ]
+  // },
+  // async rewrites() {
+  //   if (process.env.NEXT_PUBLIC_PROXY_ENABLED === 'true') {
+  //     console.log('RUNNING APPLICATION WITH PROXY')
+  //     return []
+  //   }
+  //   return [
+  //     {
+  //       source: '/api/:slug*',
+  //       destination: '/404',
+  //     },
+  //   ]
+  // },
 }
 
 

@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
 
-import { SecurityCodePrompt } from '../security-code-prompt/security-code-prompt'
+import { SecurityCodePromptWithConfirm } from '../security-code-prompt/security-code-prompt-with-confirm'
 import { AuthProcessingOverlay } from './auth-processing-overlay'
 
 import { StyledSecurityCodePromptWrapper } from './two-factor-authentication-component.styles'
@@ -119,8 +119,10 @@ export const TwoFactorAuthenticationComponent = ({
 
   return (
     <StyledSecurityCodePromptWrapper data-cy="twofactor">
-      <SecurityCodePrompt
-        code={code}
+      <SecurityCodePromptWithConfirm
+        // TODO remove when have a real server
+        code={"123456"}
+        // code={code}
         isWaiting={isWaiting}
         isExpired={isExpired}
         isCodeError={isCodeError}

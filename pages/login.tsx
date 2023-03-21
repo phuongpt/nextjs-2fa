@@ -9,7 +9,8 @@ import { Scrollbars } from 'react-custom-scrollbars'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import ArrowContinueIcon from '../components/shared/icons/arrow-continue'
-
+import { TERMS_AND_CONDITIONS } from '../constants'
+import { TextField } from '../components/shared/input/text-field/text-field'
 import {
   PageContainer,
   StyledHeader,
@@ -32,12 +33,11 @@ import {
   getLocalStorageItem,
   removeLocalStorageItem,
 } from '../utils/local-storage'
-import { } from '../constants/core'
-import { TERMS_AND_CONDITIONS } from '../constants'
-import { TextField } from '../components/shared/input/text-field/text-field'
+
+
 const Login = () => {
   const router = useRouter()
-  const [password, setPassword] = useState('')
+  const [password, setPassword] = useState('password1234')
   const [loginToken, setLoginToken] = useState('')
   const [show2fa, setShow2fa] = useState(false)
   const [email, setEmail] = useState('')
@@ -48,7 +48,7 @@ const Login = () => {
   const { t } = useTranslation(['signin'])
 
   useEffect(() => {
-    const emailParam = query?.email ? String(query.email) : ''
+    const emailParam = query?.email ? String(query.email) : 'user@user.com'
     const lastActivity = query?.last_activity
       ? parseInt(query.last_activity as string, 10)
       : null
@@ -99,7 +99,7 @@ const Login = () => {
       if (token) {
         const path = router.asPath.split('return=')
         const url = path[path.length - 1]
-        router.push(url !== '/login' ? url : '/banking/home')
+        router.push(url !== '/login' ? url : '/home')
       }
     } catch (err) {
       console.log(err)
@@ -128,14 +128,13 @@ const Login = () => {
 
       //temporary solution until we will have completed channels
       if (
-        (typeof Router.query.return === 'string' &&
-          Router.query.return.startsWith('/channel')) ||
+        (typeof Router.query.return === 'string') ||
         !Router.query.return
       ) {
-        returnPath = '/banking'
+        returnPath = '/home'
       }
 
-      Router.replace(returnPath)
+      Router.replace(returnPath);
     } catch (e) {
       console.log('message', e.message)
       retry()
@@ -222,7 +221,7 @@ const Login = () => {
                     <ContentCenter>
                       <TwoFactorAuthenticationComponent
                         onCode={handleVerifyCode}
-                        requestOnCode={false}
+                        requestOnCode={true}
                         waitingText={t('SignIn.RedirectText')}
                         customGetToken={getToken}
                         autoRequest

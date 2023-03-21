@@ -20,7 +20,7 @@
   "SignIn.MinSpecialCharacter": "Min 1 special character",
   "SignIn.Min6Characters": "Min 6 characters",
   "SignIn.PasswordResetSomethingWrong": "Something went wrong...",
-  "SignIn.NewToKlearing": "New to Klearing?",
+  "SignIn.NewToApp": "New to App?",
   "SignIn.LastRecordedActivity": "Last recorded activity <b>{{time}}</b>",
   "SignIn.ResetSuccess": "Your password has been successfully changed. Redirecting you to the login page in {{seconds}} seconds...",
   "SignIn.ResetPasswordEnterRegisteredEmail": "Enter the registered email to reset password",

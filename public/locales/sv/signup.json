@@ -1,5 +1,5 @@
 {
-  "SignupStepSignupType.openNewAccount": "Öppna ett nytt Klearing-konto",
+  "SignupStepSignupType.openNewAccount": "Öppna ett nytt App-konto",
   "SignupStepSignupType.selectAccount": "Välj din kontotyp:",
   "SignupStepSignupType.iWant": "Jag vill skapa ett företagskonto",
   "SignupStepSignupType.companyHas": "Bolaget har ett organisationsnummer och verkar som en juridisk person",
@@ -9,7 +9,7 @@
   "SignupSteps.accountTypeNotes": [
     {
       "id": "{{id1}}",
-      "title": "Välkommen till Klearing",
+      "title": "Välkommen till App",
       "subtitle": "Skicka och ta emot internationella betalningar,<b>utan dolda avgifter</b>"
     },
     {
@@ -45,9 +45,9 @@
     }
   ],
   "SignupSteps.SignupSteps.EmailStep.Title": "Din jobb-email",
-  "SignupSteps.SignupSteps.EmailStep.SubTitle": "Vi behöver registrera en email-adress som inte redan används för ett annat Klearing-konto.",
+  "SignupSteps.SignupSteps.EmailStep.SubTitle": "Vi behöver registrera en email-adress som inte redan används för ett annat App-konto.",
   "SignupSteps.SignupSteps.MobileStep.Title": "Ditt mobilnummer",
-  "SignupSteps.SignupSteps.MobileStep.SubTitle": "Vi behöver ett mobilnummer som inte redan används för ett annat Klearing-konto.",
+  "SignupSteps.SignupSteps.MobileStep.SubTitle": "Vi behöver ett mobilnummer som inte redan används för ett annat App-konto.",
   "SignupSteps.SignupSteps.PasswordStep.Title": "Använd ett starkt lösenord",
   "SignupSteps.SignupSteps.PasswordStep.SubTitle": "For alla nya lösenord kravs minst 8 tecken kombinerat av följande: symboler, siffror, små och stora bokstäver samt specialtecken.",
   "SignupSteps.SignupSteps.PersonDetailsStep.Title": "Vi behöver veta vad du heter",
@@ -71,9 +71,9 @@
   "SignupSteps.SignupSteps.CompleteStep.Title": "Ansökan inskickad",
   "SignupSteps.SignupSteps.CompleteStep.SubTitle": "Du kan se status för din ansökan på plattformen",
   "SignupSteps.SignupSteps.UserDetailsStep.Title": "Föreskriftsinformation",
-  "SignupSteps.SignupSteps.UserDetailsStep.SubTitle": "Vi är skyldiga att verifiera identiteten på alla personer som försöker ansöka om ett Klearing-bankkonto.",
+  "SignupSteps.SignupSteps.UserDetailsStep.SubTitle": "Vi är skyldiga att verifiera identiteten på alla personer som försöker ansöka om ett App-bankkonto.",
   "SignupSteps.SignupSteps.OnfidoStep.Title": "Föreskriftsinformation",
-  "SignupSteps.SignupSteps.OnfidoStep.SubTitle": "Vi är skyldiga att verifiera identiteten på alla personer som ansöker om ett Klearing-bankkonto. </br></br>Klearing bekräftar din rätt att begära åtkomst eller radering av dina uppgifter. Du kan läsa vår sekretesspolicy eller kontakta oss på support@klearing.com",
+  "SignupSteps.SignupSteps.OnfidoStep.SubTitle": "Vi är skyldiga att verifiera identiteten på alla personer som ansöker om ett App-bankkonto. </br></br>App bekräftar din rätt att begära åtkomst eller radering av dina uppgifter. Du kan läsa vår sekretesspolicy eller kontakta oss på support@App.com",
   "SignupSteps.SignupSteps.PriceListStep.Title": "Prislista",
   "SignupSteps.SignupSteps.PriceListStep.SubTitle": "Här kan du se vår erbjudna prislista som du måste acceptera för att fortsätta",
   "SignupStepEmail.Title": "Registrera dig med email",
@@ -143,7 +143,7 @@
   "SignupStepBusiness.CompanyRegistrationNumber": "Organisationsnummer",
   "SignupStepBusiness.Continue": "Fortsätt",
   "SignupStepBusiness.LegalEntityType": "Typ av juridisk form",
-  "SignupStepBusiness.CompanyNumberError": "Företag med angivet organisationsnummer finns redan registrerat hos Klearing",
+  "SignupStepBusiness.CompanyNumberError": "Företag med angivet organisationsnummer finns redan registrerat hos App",
   "SignupStepBusiness.TradingName": "Handelsnamn (om annat än registrerat namn)",
   "SignupStepBusiness.DateIncorporation": "Registreringsår",
   "SignupStepBusiness.Day": "Dag (DD)",
@@ -218,7 +218,7 @@
   ],
   "SignupStepTerms.Button": "Lämna in ansökan",
   "SignupStepComplete.Title": "Din bankansökan har skickats in",
-  "SignupStepComplete.SubTitle": "Om ytterligare information behövs kommer du att kontaktas av Klearings onboarding-team.",
+  "SignupStepComplete.SubTitle": "Om ytterligare information behövs kommer du att kontaktas av Apps onboarding-team.",
   "SignupStepComplete.Button": "Logga in",
   "SignupIntlActivity.EstimatedMontlyNumbers": [
     {
@@ -316,7 +316,7 @@
   "SignupRolesStep.Yes": "Ja",
   "SignupRolesStep.Continue": "Fortsätt",
   "SignupUseAccountStep.Title": "Användning av konto",
-  "SignupUseAccountStep.Subtitle": "Please tell us a bit more about how you plan to use your Klearing account.",
+  "SignupUseAccountStep.Subtitle": "Please tell us a bit more about how you plan to use your App account.",
   "SignupUseAccountStep.MainDepositSource": "Source of funds",
   "SignupUseAccountStep.MainDepositSourcePlaceholder": "Main source of funds",
   "SignupUseAccountStep.AdditionalDepositSource": "Ytterligare finansieringskälla",
@@ -344,7 +344,7 @@
   "SignupInternationalActivityStep.NotSupportedCurrencyList": "Currently we do not support {{fullCurrencyNameList}} and {{lastFullCurrencyName}}.\nYou can still send other currencies to {{fullCountryNameList}} and {{lastFullCountryName}}.",
   "SignupInternationalActivityStep.Continue": "Fortsätt",
   "SignupIncomingDepositStep.Title": "Incoming deposits",
-  "SignupIncomingDepositStep.Subtitle": "Please tell us a bit more about your international and national deposits to your Klearing account.",
+  "SignupIncomingDepositStep.Subtitle": "Please tell us a bit more about your international and national deposits to your App account.",
   "SignupIncomingDepositStep.EstimatedMonthlyPaymentValue": "Estimated monthly foreign currency deposits in {{currencyCode}} value",
   "SignupIncomingDepositStep.SelectOne": "Välj ett alternativ",
   "SignupIncomingDepositStep.EstimatedMonthlyPaymentNum": "Beräknat antal insättningar per månad",

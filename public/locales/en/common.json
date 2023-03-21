@@ -178,24 +178,54 @@
     }
   ],
   "Categories": [
-    { "code": 11, "name": "Charity or not-for-profit" },
-    { "code": 1, "name": "Consulting, IT, or business services" },
-    { "code": 2, "name": "Design, marketing or communication" },
-    { "code": 10, "name": "Education or learning" },
-    { "code": 4, "name": "Entertainment, arts or photography" },
+    {
+      "code": 11,
+      "name": "Charity or not-for-profit"
+    },
+    {
+      "code": 1,
+      "name": "Consulting, IT, or business services"
+    },
+    {
+      "code": 2,
+      "name": "Design, marketing or communication"
+    },
+    {
+      "code": 10,
+      "name": "Education or learning"
+    },
+    {
+      "code": 4,
+      "name": "Entertainment, arts or photography"
+    },
     {
       "code": 8,
       "name": "Financial services, products, or holding companies"
     },
-    { "code": 6, "name": "Food, beverages, or tobacco" },
-    { "code": 5, "name": "Health, sports or personal care" },
-    { "code": 13, "name": "Other, not listed above" },
+    {
+      "code": 6,
+      "name": "Food, beverages, or tobacco"
+    },
+    {
+      "code": 5,
+      "name": "Health, sports or personal care"
+    },
+    {
+      "code": 13,
+      "name": "Other, not listed above"
+    },
     {
       "code": 7,
       "name": "Other retail, wholesale, or manufacturing"
     },
-    { "code": 9, "name": "Real estate or construction" },
-    { "code": 3, "name": "Travel, accommodation, or transport" },
+    {
+      "code": 9,
+      "name": "Real estate or construction"
+    },
+    {
+      "code": 3,
+      "name": "Travel, accommodation, or transport"
+    },
     {
       "code": 12,
       "name": "Utilities and public or government services"
@@ -704,27 +734,23 @@
       "name": "US dollar"
     }
   ],
-
   "DatePicker.SelectDate": "Select date",
   "DatePicker.Today": "Today",
-
   "Button.Cancel": "Cancel",
   "Button.Clear": "Clear",
   "Button.Continue": "Continue",
   "Button.Schedule": "Schedule this payment",
-
   "EstimatedSavings.Main": "estimated savings compared to traditional banks",
   "EstimatedSavings.MainShort": "estimated savings",
   "EstimatedSavings.Description": "Here you can view and download your banking account details to receive national and/or international transactions.",
   "EstimatedSavings.LocalPayment": "Estimated savings is calculated by using the average payment fees from a sample of the largest traditional banks in your country and compare it to our payment fees.",
   "EstimatedSavings.InternationPayment": "Estimated savings is calculated by using the average normal FX conversion cost from a sample of the largest traditional banks in your country and compare it to our FX conversion cost. Additionally we include in the same way your direct savings of fixed payment fees.",
   "EstimatedSavings.FxSpot": "Estimated savings is calculated by using the average normal FX conversion cost from a sample of the largest traditional banks in your country and compare it to our FX conversion cost.",
-
   "CodePrompt.NoCode": "No code has been entered",
   "CodePrompt.Incorrect": "Entered code is not correct",
   "CodePrompt.TimeIsOut": "Time has expired",
   "CodePrompt.CodeValid": "Code is valid for",
-  "CodePrompt.KlearingSecurity": "Klearing security code required",
+  "CodePrompt.AppSecurity": "App security code required",
   "CodePrompt.GetCode": "Get code",
   "CodePrompt.Confirm": "Confirm",
   "CodePrompt.EnterCode": "Enter code sent to your mobile",
@@ -734,7 +760,6 @@
   "CodePrompt.TryAgain": "Try again",
   "CodePrompt.DidntGet": "Didn’t get a code?",
   "CodePrompt.Processing": "Processing...",
-
   "TelephoneInput.Placeholder": "Your phone number",
   "TelephoneInput.Error": "You have entered an invalid mobile number. Please try again.",
   "FXGraph.WeUseExchangeRate": "We use real exchange rates",
@@ -748,7 +773,6 @@
   "FXGraph.RateDuration": "The payment amount at the highest {{amount}} rate in the last {{duration}}",
   "FXGraph.Rate": "The payment amount at the current {{amount}} rate",
   "FXGraph.RateLowest": "The payment amount at the lowest {{amount}} rate in the last {{duration}}",
-
   "SessionExpired.YourBankingSession": "Your banking session will expire in",
   "SessionExpired.DoYouWant": "Do you want to extend the session?",
   "SessionExpired.Ignore": "Ignore",

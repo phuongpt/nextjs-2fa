@@ -116,7 +116,7 @@ export const SecurityCodePromptWithConfirm = ({
           </Timer>
         )}
       </CodeExpiration>
-      <Title>{t('CodePrompt.KlearingSecurity')}</Title>
+      <Title>{t('CodePrompt.AppSecurity')}</Title>
       <Subheading className={hasError ? 'error' : ''} data-cy="securitysubheading">
         {hasError
           ? getError()

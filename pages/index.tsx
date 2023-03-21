@@ -16,7 +16,7 @@ export const Index = () => {
 
     if (authenticated) {
       // router.push(createChannelPath())// for MVP banking is default
-      router?.push('/banking')
+      router?.push('/home')
     } else {
       router?.push('/login')
     }

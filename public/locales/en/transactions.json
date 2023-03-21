@@ -28,7 +28,7 @@
   "Historyitem.Bought": "Bought",
   "HistoryItemDetailView.Bought": "Bought",
   "HistoryItemDetailView.TransactionNo": "Transaction # {{number}}",
-  "HistoryItemDetailView.KlearingInternationalPayment": "Klearing international payment",
+  "HistoryItemDetailView.AppInternationalPayment": "App international payment",
   "HistoryItemDetailView.InternationalPayment": "International payment",
   "HistoryItemDetailView.NationalPayment": "National payment",
   "HistoryItemDetailView.CurrencyConversion": "Currency conversion",
