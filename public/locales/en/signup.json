@@ -1,0 +1,534 @@
+{
+  "SignupStepSignupType.openNewAccount": "Open a new Klearing account",
+  "SignupStepSignupType.selectAccount": "Select your account type:",
+  "SignupStepSignupType.iWant": "I want to create a company account",
+  "SignupStepSignupType.companyHas": "The company has a registration number and operates as a legal entity",
+  "SignupStepSignupType.haveNotBusinessYet": "I don't have a business yet",
+  "SignupStepSignupType.yourCompanyIsNot": "Your company is not yet registered or you want to learn more about Klearing",
+  "SignupStepSignupType.continue": "Continue",
+
+  "SignupSteps.accountTypeNotes": [
+    {
+      "id": "{{id1}}",
+      "title": "Welcome to Klearing",
+      "subtitle": "Send and receive international payments, with <b>no hidden fees</b>"
+    },
+    {
+      "id": "{{id2}}",
+      "title": "As a company you’ll get:",
+      "list": [
+        "Multi-currency accounts that allow you to hold, exchange, send and receive funds in 38 currencies",
+        "Always at our leading FX rates up tp 10x cheaper than banks"
+      ]
+    },
+    {
+      "id": "{{id3}}",
+      "title": "As a freelancer you’ll get:",
+      "list": [
+        "An account in your own name",
+        "Send and receive payments in 38 currencies",
+        "Instant settle your payments for work done"
+      ]
+    },
+    {
+      "id": "{{id4}}",
+      "title": "As a team member you’ll get:",
+      "list": [
+        "Access to features your administrator enabled for you",
+        "Another great feature could go here",
+        "And a third on to have a nice continuity"
+      ]
+    },
+    {
+      "id": "{{id5}}",
+      "title": "Not ready yet?",
+      "subtitle": "Unfortunately we can’t review applications from unregistered businesses. We’ll be happy to review your application once your business is registered."
+    }
+  ],
+  "SignupSteps.SignupSteps.EmailStep.Title": "Your work email",
+  "SignupSteps.SignupSteps.EmailStep.SubTitle": "We need an email address that is not already used for another Klearing account.",
+  "SignupSteps.SignupSteps.MobileStep.Title": "Your contact mobile number",
+  "SignupSteps.SignupSteps.MobileStep.SubTitle": "We need a mobile number that is not already used for another Klearing account.",
+  "SignupSteps.SignupSteps.PasswordStep.Title": "Use a strong password",
+  "SignupSteps.SignupSteps.PasswordStep.SubTitle": "The following are password strength requirements: min 6 characters, use symbols, numbers and letters.",
+  "SignupSteps.SignupSteps.PersonDetailsStep.Title": "Important details about you",
+  "SignupSteps.SignupSteps.PersonDetailsStep.SubTitle": "Enter main information about yourself",
+  "SignupSteps.SignupSteps.BusinessAddressStep.Title": "Important details about your business",
+  "SignupSteps.SignupSteps.BusinessAddressStep.SubTitle": "Please provide your company number and tax id. Required for your business verification.",
+  "SignupSteps.SignupSteps.AdditionalDetails.Title": "Additional details about your business",
+  "SignupSteps.SignupSteps.AdditionalDetails.SubTitle": "Please select applicable industry categories for your business. This is required for your business verification.",
+  "SignupSteps.SignupSteps.RolesStep.Title": "Tell us more about your position in the company",
+  "SignupSteps.SignupSteps.RolesStep.SubTitle": "Are you authorised to apply for a bank account on behalf of your organisation?",
+  "SignupSteps.SignupSteps.UseAccountStep.Title": "Account usage for payments",
+  "SignupSteps.SignupSteps.UseAccountStep.SubTitle": "Let us know a bit more about how you plan to use your account. We are obligated to ask these questions to comply with financial regulations.",
+  "SignupSteps.SignupSteps.InternationalActivityStep.Title": "Account usage for payments",
+  "SignupSteps.SignupSteps.InternationalActivityStep.SubTitle": "Let us know a bit more about how you plan to use your account. We are obligated to ask these questions to comply with financial regulations.",
+  "SignupSteps.SignupSteps.IncomingActivityStep.Title": "Account usage for payments",
+  "SignupSteps.SignupSteps.IncomingActivityStep.SubTitle": "Let us know a bit more about how you plan to use your account. We are obligated to ask these questions to comply with financial regulations.",
+  "SignupSteps.SignupSteps.ControllingIndividualsStep.Title": "Details about your business",
+  "SignupSteps.SignupSteps.ControllingIndividualsStep.SubTitle": "We are obliged to collect personal details of company directors and direct or indirect owners that own at least 10% of the company to comply with financial regulations",
+  "SignupSteps.SignupSteps.TermsStep.Title": "You're almost there",
+  "SignupSteps.SignupSteps.TermsStep.SubTitle": "Accept our terms & conditions and you're in! A copy of your application and the price list will be sent to you by email.",
+  "SignupSteps.SignupSteps.CompleteStep.Title": "Application submitted",
+  "SignupSteps.SignupSteps.CompleteStep.SubTitle": "You can see the status of your application in the Banking section on our platform",
+  "SignupSteps.SignupSteps.UserDetailsStep.Title": "Regulatory information",
+  "SignupSteps.SignupSteps.UserDetailsStep.SubTitle": "We are obliged to verify the identity of any person that is  applying for a Klearing account.",
+  "SignupSteps.SignupSteps.OnfidoStep.Title": "Regulatory information",
+  "SignupSteps.SignupSteps.OnfidoStep.SubTitle": "We are obliged to verify the identity of any person that is trying to apply for a Klearing banking account.<br /><br />Klearing acknowledges your right to request access or erasure of your data. You may review our Privacy Policy or contact us at support@klearing.com",
+  "SignupSteps.SignupSteps.PriceListStep.Title": "Price list",
+  "SignupSteps.SignupSteps.PriceListStep.SubTitle": "Here you can see our offered price list which you need to accept in order to continue",
+
+  "SignupStepEmail.Title": "Sign up with Email",
+  "SignupStepEmail.SubTitle": "Enter your work email address:",
+  "SignupStepEmail.ErrorMessage": "Provided email has already been registered. Please use another email or contact ",
+  "SignupStepEmail.DescribeText1": "By confirming your email, you agree to our ",
+  "SignupStepEmail.DescribeText2": "and that you have read and understood our ",
+  "SignupStepEmail.DescribeLink1": "Terms of Service",
+  "SignupStepEmail.DescribeLink2": "Privacy Policy",
+  "SignupStepEmail.SignupButton": "Sign up with email",
+
+  "SignupStepEmailConfirm.Title": "Confirm Your Email",
+  "SignupStepEmailConfirm.CheckYourSpam": "Check your spam folder and the spelling of your email address",
+  "SignupStepEmailConfirm.EmailError": "Incorrect email? Edit email address.",
+  "SignupStepEmailConfirm.EmailIncorrect": "Incorrect email?",
+  "SignupStepEmailConfirm.EditEmail": "Edit email address",
+  "SignupStepEmailConfirm.NoCode1": "Didn’t get a code? ",
+  "SignupStepEmailConfirm.NoCode2": "Retry",
+  "SignupStepEmailConfirm.WrongNumber": "The number is not correct",
+  "SignupStepEmailConfirm.RightCode": "Input the right code or click to",
+  "SignupStepEmailConfirm.ReceiveNewCode": "Receive new code",
+  "SignupStepEmailConfirm.ValidFor": "Code is valid for",
+  "SignupStepEmailConfirm.TheCodeWhat": "The code what has been sent is not expired.",
+  "SignupStepEmailConfirm.ClickHere": "Click here to receive new code",
+
+  "SignupEmailConfirmNotes.AddedSecurityLayer": "Added security layer",
+  "SignupEmailConfirmNotes.CodeHasNotArrived1": "Code hasn't arrived? You can retry in",
+  "SignupEmailConfirmNotes.CodeHasNotArrived2": " or contact us.",
+
+  "SignupStepMobile.Title": "Enter your mobile number",
+  "SignupStepMobile.ByAdding1": "By adding your mobile number, you agree to our Terms of Service, our Merchant Terms of Service and that you have read and understood our",
+  "SignupStepMobile.ByAdding2": "Privacy Policy",
+  "SignupStepMobile.AddMobile": "Add mobile number",
+
+  "SignupStepMobileConfirm.Title": "Confirm your mobile",
+  "SignupStepMobileConfirm.CheckText": "Check your mobile, we just sent you an sms.",
+  "SignupStepMobileConfirm.ValidFor": "Code is valid for",
+  "SignupStepMobileConfirm.TheCodeWhat": "The code what has been sent is not expired.",
+  "SignupStepMobileConfirm.ClickHere": "Click here to receive new code",
+  "SignupStepMobileConfirm.IncorrectMobileNumber": "Incorrect mobile number?",
+  "SignupStepMobileConfirm.EditMobileNumber": "Edit mobile number",
+  "SignupStepMobileConfirm.TheCodeIsNotCorrect": "Entered code is not correct.",
+  "SignupStepMobileConfirm.InputRightCode": "Input the right code or click to",
+  "SignupStepMobileConfirm.ReceiveNewCode": "Receive new code",
+  "SignupStepMobileConfirm.Confirm": "Continue",
+
+  "SignupStepPassword.Title": "Create Password",
+  "SignupStepPassword.SubTitle": "Letters and digits, minimum 6 characters",
+  "SignupStepPassword.Placeholder": "Password",
+  "SignupStepPassword.MinLowercase": "Min 1 lower case letter",
+  "SignupStepPassword.MinUppercase": "Min 1 capital letter",
+  "SignupStepPassword.MinNumber": "Min 1 number",
+  "SignupStepPassword.MinSpecialCharacter": "Min 1 special character",
+  "SignupStepPassword.Min6Characters": "Min 6 characters",
+  "SignupStepPassword.CreatePassword": "Create password",
+
+  "SignupStepPersonDetails.Title": "Your details",
+  "SignupStepPersonDetails.SubTitle": "Details of the primary owner of the account (the Administrator of the account for your company, can later be transferred to other users in the organisation).",
+  "SignupStepPersonDetails.FirstName": "First and middle name(s)",
+  "SignupStepPersonDetails.FirstNameError": "The field must contain at least 2 characters and may not include !@#$*~",
+  "SignupStepPersonDetails.MiddleName": "Middle name (optional)",
+  "SignupStepPersonDetails.LastName": "Last name",
+  "SignupStepPersonDetails.LastNameError": "The field must contain at least 2 characters and may not include !@#$*~",
+  "SignupStepPersonDetails.DateOfBirth": "Date of birth",
+  "SignupStepPersonDetails.Day": "Day (DD)",
+  "SignupStepPersonDetails.Year": "Year (YYYY)",
+  "SignupStepPersonDetails.ValidDay": "Please input a valid day {{monthLabel}} has {{days}} days",
+  "SignupStepPersonDetails.18YearsOld": "You need to be 18 years old or more to apply for an account",
+  "SignupStepPersonDetails.Continue": "Continue",
+
+  "SignupStepBusiness.Title": "Business details",
+  "SignupStepBusiness.SubTitle": "Please tell us your business registration details",
+  "SignupStepBusiness.FullTradeName": "Full trade name",
+  "SignupStepBusiness.CompanyName": "Registered name",
+  "SignupStepBusiness.CompanyNameError": "The name of the account can’t contain <!@#$*~?> can not start or end with a space and must be more than 1 character long",
+  "SignupStepBusiness.PersonalTaxId": "Personal tax id",
+  "SignupStepBusiness.CompanyRegistrationNumber": "Company registration number",
+  "SignupStepBusiness.Continue": "Continue",
+  "SignupStepBusiness.LegalEntityType": "Legal entity type",
+  "SignupStepBusiness.CompanyNumberError": "Company with specified number and country already exists",
+  "SignupStepBusiness.TradingName": "Trading name (if different than registered name)",
+  "SignupStepBusiness.DateIncorporation": "Date of incorporation",
+  "SignupStepBusiness.Day": "Day (DD)",
+  "SignupStepBusiness.Year": "Year (YYYY)",
+  "SignupStepBusiness.FutureDateError": "Date cannot be a future date",
+
+  "SignupStepUsers.Title": "Owners and controlling individuals",
+  "SignupStepUsers.SubTitle": "Are there additional individuals who directly or indirectly <b>own 10% or more</b> of the company?",
+  "SignupStepUsers.SubTitle2": "Please make sure all owners with 10% or more are represented in the list below:",
+  "SignupStepUsers.Continue": "Continue",
+  "SignupStepUsers.Name": "Name",
+  "SignupStepUsers.Ownership": "Ownership",
+  "SignupStepUsers.Role": "Role",
+  "SignupStepUsers.Edit": "Edit",
+  "SignupStepUsers.CheckboxText": "Are there additional individuals who directly or indirectly <b>own 10% or more</b> of the company?",
+  "SignupStepUsers.AddOwners": "Add owner",
+  "SignupStepUsers.AddManagerText": "Are there additional senior managers?",
+  "SignupStepUsers.AddManager": "Add senior manager",
+  "SignupStepUsers.Yes": "Yes",
+  "SignupStepUsers.No": "No",
+  "SignupStepUsers.TableName": "Name",
+  "SignupStepUsers.TableOwnership": "Ownership",
+  "SignupStepUsers.TableRole": "Role",
+
+  "SignupStepUsers.OwnerPopup.Title": "Owner {{id}}",
+  "SignupStepUsers.OwnerPopup.SubTitle": "Please fill this form to speed up your application. The owner will, in some cases, have to check and confirm the information entered.",
+  "SignupStepUsers.OwnerPopup.FirstName": "First and middle name(s)*",
+  "SignupStepUsers.OwnerPopup.FirstNameError": "The field must contain at least 2 characters and may not include !@#$*~",
+  "SignupStepUsers.OwnerPopup.LastName": "Last name*",
+  "SignupStepUsers.OwnerPopup.LastNameError": "The field must contain at least 2 characters and may not include !@#$*~",
+  "SignupStepUsers.OwnerPopup.CountryOfResidence": "Country of residence",
+  "SignupStepUsers.OwnerPopup.Nationality": "Nationality",
+  "SignupStepUsers.OwnerPopup.PercentageText": "Ownership percentage (use round value)*",
+  "SignupStepUsers.OwnerPopup.DateOfBirth": "Please provide the birthdate if easily available (optional)",
+  "SignupStepUsers.OwnerPopup.Name": "Name",
+  "SignupStepUsers.OwnerPopup.Residence": "Residence and nationality",
+  "SignupStepUsers.OwnerPopup.Min10": "min 10%",
+  "SignupStepUsers.OwnerPopup.SeniorManagerLabel": "Is this owner a director?",
+  "SignupStepUsers.OwnerPopup.Yes": "Yes",
+  "SignupStepUsers.OwnerPopup.No": "No",
+  "SignupStepUsers.OwnerPopup.EmployeeLabel": "Is this owner a signatory?",
+  "SignupStepUsers.OwnerPopup.MandatoryField": "* Mandatory fields",
+  "SignupStepUsers.OwnerPopup.Continue": "Continue",
+  "SignupStepUsers.ConfirmDeletingModal.Title": "Are you sure?",
+  "SignupStepUsers.ConfirmDeletingModal.Desc": "You are about to remove {{name}} from our system. If this is intentional then please confirm using the Delete button. If not you can cancel the operation.",
+  "SignupStepUsers.ConfirmDeletingModal.Cancel": "Cancel",
+  "SignupStepUsers.ConfirmDeletingModal.Delete": "Delete",
+
+  "SignupStepUser.SeniorManagerPopup.OwnerCEOTitle": "Senior manager",
+  "SignupStepUser.SeniorManagerPopup.OwnerCEOSubTitle": "Please fill this form to speed up your application. The director will have to check and confirm the information entered.",
+  "SignupStepUser.SeniorManagerPopup.DirectorCEO.Title": "Chief Executive Officer / Business manager",
+  "SignupStepUser.SeniorManagerPopup.DirectorCEO.SubTitle": "Please fill this form to speed up your application. The owner will, in some cases, have to check and confirm the information entered.",
+  "SignupStepUser.SeniorManagerPopup.BirthDate": "Please provide the birthdate if easily available (optional)",
+  "SignupStepUser.SeniorManagerPopup.FirstName": "First and middle name(s)*",
+  "SignupStepUser.SeniorManagerPopup.FirstNameError": "The field must contain at least 2 characters and may not include !@#$*~",
+  "SignupStepUser.SeniorManagerPopup.LastName": "Last name*",
+  "SignupStepUser.SeniorManagerPopup.LastNameError": "The field must contain at least 2 characters and may not include !@#$*~",
+  "SignupStepUser.SeniorManagerPopup.CountryOfResidence": "Country of residence",
+  "SignupStepUser.SeniorManagerPopup.Nationality": "Nationality",
+  "SignupStepUser.SeniorManagerPopup.Day": "Day (DD)",
+  "SignupStepUser.SeniorManagerPopup.Year": "Year (YYYY)",
+  "SignupStepUser.SeniorManagerPopup.FutureDateError": "Date cannot be a future date",
+  "SignupStepUser.SeniorManagerPopup.OwnerEmployeeLabel": "Is this senior manager an employee?",
+  "SignupStepUser.SeniorManagerPopup.DirectorOwnerLabel": "Is this person an owner?",
+  "SignupStepUser.SeniorManagerPopup.EmployeeLabel": "Is this owner an employee?",
+  "SignupStepUser.SeniorManagerPopup.Yes": "Yes",
+  "SignupStepUser.SeniorManagerPopup.No": "No",
+  "SignupStepUser.SeniorManagerPopup.MandatoryField": "* Mandatory fields",
+  "SignupStepUser.SeniorManagerPopup.Continue": "Continue",
+
+  "SignupStepUser.AddressPopup.Title": "Current home address",
+  "SignupStepUser.AddressPopup.SubTitle": "Please fill this form if you have the data available to speed up your application. The director will have to check and confirm the information entered.",
+  "SignupStepUser.AddressPopup.Country": "Country",
+  "SignupStepUser.AddressPopup.Address1": "Address line 1",
+  "SignupStepUser.AddressPopup.Address2": "Address line 2 (optional)",
+  "SignupStepUser.AddressPopup.City": "City",
+  "SignupStepUser.AddressPopup.StateOrRegion": "State / Region (optional)",
+  "SignupStepUser.AddressPopup.PostalCode": "Postal code",
+  "SignupStepUser.AddressPopup.HasData": "I don’t have data available",
+
+  "SignupStepAddress.Title": "Registered business address",
+  "SignupStepAddress.AddressLine1": "Address Line 1",
+  "SignupStepAddress.AddressLine2": "Address Line 2 (optional)",
+  "SignupStepAddress.City": "City",
+  "SignupStepAddress.PostCode": "Postal code",
+  "SignupStepAddress.State": "State / Region (optional)",
+  "SignupStepAddress.Continue": "Continue",
+  "SignupStepAddress.SameAddressLabel": "Is your principal business/trading address the same as the registered business address?",
+  "SignupStepAddress.Yes": "Yes",
+  "SignupStepAddress.No": "No",
+
+  "SignupStepTradingAddress.Title": "Principal business/trading address",
+  "SignupStepTradingAddress.AddressLine1": "Address Line 1",
+  "SignupStepTradingAddress.AddressLine2": "Address Line 2 (optional)",
+  "SignupStepTradingAddress.City": "City",
+  "SignupStepTradingAddress.PostCode": "Postal code",
+  "SignupStepTradingAddress.State": "State / Region (optional)",
+  "SignupStepTradingAddress.Continue": "Continue",
+
+  "SignupStepAdditionalDetails.Title": "Additional details",
+  "SignupStepAdditionalDetails.Website": "Business Website",
+  "SignupStepAdditionalDetails.MoreDetails": "Please describe how you market your product or service",
+  "SignupStepAdditionalDetails.CompleteSignup": "Continue",
+  "SignupStepAdditionalDetails.DefaultCategory": "Business sector",
+  "SignupStepAdditionalDetails.ChooseSubCategory": "Choose a sub category",
+  "SignupStepAdditionalDetails.ChooseCategoryFirst": "Sub-business sector",
+  "SignupStepAdditionalDetails.HaveWebsite": "Do you have a website?",
+  "SignupStepAdditionalDetails.Yes": "Yes",
+  "SignupStepAdditionalDetails.No": "No",
+
+  "SignupApplyAccountStep.Title": "You want to apply for a bank account?",
+  "SignupApplyAccountStep.IAmAuthorised": "Yes, I am authorised, start application",
+  "SignupApplyAccountStep.MoreInformation": "More information will be required in the following steps.",
+  "SignupApplyAccountStep.WillDoItLater": "I/we will do it later",
+  "SignupApplyAccountStep.Continue": "Continue",
+
+  "SignupStepTerms.Title": "Terms and conditions",
+  "SignupStepTerms.Terms": [
+    "I hereby certify, to the best of my knowledge, that the information provided (including specifically the required information on the Applicant, Directors and Beneficial Owners) is complete and correct, and agree to electronic identity verification checks being carried out on the individuals listed.",
+    "I confirm that I have full power and authority to enter into this Agreement for and on behalf of the Company indicated.",
+    "By submitting this application I confirm that I have read and agree to the <a href='{{customerAgreementLink}}' target='_blank' className='terms-and-conditions'>Customer Agreement</a> and <a href='{{paymentServicesAgreementLink}}' target='_blank' className='terms-and-conditions'>Payment Services Agreement</a> on behalf of the company indicated.",
+    "I confirm that I have read the offered Price List and acknowledged its contents"
+  ],
+  "SignupStepTerms.Button": "Submit application",
+
+  "SignupStepComplete.Title": "Your banking application has been successfully submitted",
+  "SignupStepComplete.SubTitle": "If further information is necessary you will be contacted by Klearing onboarding team.",
+  "SignupStepComplete.Button": "Sign in",
+
+  "SignupIntlActivity.EstimatedMontlyNumbers": [
+    {
+      "id": "LESS_ONE",
+      "name": "One-off or infrequently"
+    },
+    {
+      "id": "ONE_TWENTY",
+      "name": "1-20 per month"
+    },
+    {
+      "id": "TWENTY_FIFTY",
+      "name": "20-50 per month"
+    },
+    {
+      "id": "FIFTY_HUNDRED",
+      "name": "50-100 per month"
+    },
+    {
+      "id": "PLUS_HUNDRED",
+      "name": "100+ per month"
+    }
+  ],
+  "SignupUseAccount.AccountSources": [
+    {
+      "id": "BUSINESS_REVENUE",
+      "name": "Business revenue"
+    },
+    {
+      "id": "EXTERNAL_SHAREHOLDER_INVESTMENT",
+      "name": "External shareholder investment"
+    },
+    {
+      "id": "LOAN_ADVANCE_OTHER_BORROWING",
+      "name": "Loan advance other borrowing"
+    },
+    {
+      "id": "DONATIONS_GRANTS",
+      "name": "Donations grants"
+    },
+    {
+      "id": "INTER_COMPANY_TRANSFERS",
+      "name": "Inter company transfers"
+    },
+    {
+      "id": "PROCEEDS_SALE_ASSETS",
+      "name": "Proceeds sale assets"
+    },
+    {
+      "id": "OTHER",
+      "name": "Other"
+    }
+  ],
+  "SignupUseAccount.AccountPurposes": [
+    {
+      "id": "PAYING_GOODS_SERVICES",
+      "name": "Paying for goods/services"
+    },
+    {
+      "id": "REPATRIATING_OVERSEAS_EARNINGS",
+      "name": "Repatriating overseas earnings"
+    },
+    {
+      "id": "INTER_COMPANY_TRANSFERS",
+      "name": "Intercompany transfers"
+    },
+    {
+      "id": "COLLECTING_FUNDS_CLIENTS",
+      "name": "Collecting funds from clients"
+    },
+    {
+      "id": "PAYMENT_TO_INDIVIDUAL",
+      "name": "Payment to individual"
+    },
+    {
+      "id": "INVESTMENT_ACTIVITY",
+      "name": "Investment activity"
+    },
+    {
+      "id": "PROPERTY_PURCHASE_SALE",
+      "name": "Property purchase/sale"
+    },
+    {
+      "id": "OTHER",
+      "name": "Other"
+    }
+  ],
+
+  "SignupRolesStep.Title": "What is your role at {{name}} ?",
+  "SignupRolesStep.RolesSelectTitle": "Please select all that apply to you",
+  "SignupRolesStep.OwnershipPercentage": "Ownership percentage (use rounded value)*",
+  "SignupRolesStep.BankingAccessQuestion": "Will you have banking access (make/approve payments)?",
+  "SignupRolesStep.TitleOrRole": "What is your title/role?",
+  "SignupRolesStep.TitleOrRolePlaceholder": "title/role",
+  "SignupRolesStep.No": "No",
+  "SignupRolesStep.Yes": "Yes",
+  "SignupRolesStep.Continue": "Continue",
+
+  "SignupUseAccountStep.Title": "Use of account",
+  "SignupUseAccountStep.Subtitle": "Please tell us a bit more about how you plan to use your Klearing account.",
+  "SignupUseAccountStep.MainDepositSource": "Source of funds",
+  "SignupUseAccountStep.MainDepositSourcePlaceholder": "Main source of funds",
+  "SignupUseAccountStep.AdditionalDepositSource": "Additional source of funds",
+  "SignupUseAccountStep.UseAccount": "Main use of account",
+  "SignupUseAccountStep.AdditionalDepositSourcePlaceholder": "Secondary source of funds (select one or more options)",
+  "SignupUseAccountStep.MainAccountPurposePlaceholder": "Main account purpose",
+  "SignupUserAccountStep.SecondaryAccountPurposeTitle": "Additional use of account",
+  "SignupUserAccountStep.SecondartAccountPurposePlaceholder": "Secondary account purposes (select one or more options)",
+  "SignupUseAccountStep.SecondaryAccountPurposeSelevtOneMore": "Secondary account purposes (select one or more options)",
+  "SignupUseAccountStep.ReceiveMoneyFrom3PartiesQuestion": "Will you receive money from third parties (like your customers) into your account?",
+  "SignupUseAccountStep.Continue": "Continue",
+  "SignupUseAccountStep.Yes": "Yes",
+  "SignupUseAccountStep.No": "No",
+  "SignupInternationalActivityStep.Title": "Outgoing payments",
+  "SignupInternationalActivityStep.Subtitle": "Please tell us a bit more about your outgoing international and national payments from your Klearing account.",
+  "SignupInternationalActivityStep.EstimatedMonthlyPaymentValue": "Estimated monthly foreign currency payments in {{currencyCode}} value",
+  "SignupInternationalActivityStep.SelectOne": "Choose one option",
+  "SignupInternationalActivityStep.EstimatedMonthlyPaymentNum": "Estimated number of payments per month",
+  "SignupInternationalActivityStep.DestinationOfPayment": "Destination of payments",
+  "SignupInternationalActivityStep.SelectOneOrMoreCountries": "Select one or more countries",
+  "SignupInternationalActivityStep.CurrenciesOfDeposits": "Which currencies will be paid out from your account?",
+  "SignupInternationalActivityStep.SelectOneOrMoreCurrencies": "Select one or more currencies",
+  "SignupInternationalActivityStep.EstimatedMonthlyLocalPaymentValue": "Expected outgoing {{currencyCode}} payments to {{countryCode}}",
+  "SignupInternationalActivityStep.NotSupportedCurrency": "Currently we do not support {{fullCurrencyName}}.\nYou can still send other currencies to {{fullCountryName}}.",
+  "SignupInternationalActivityStep.NotSupportedCurrencyList": "Currently we do not support {{fullCurrencyNameList}} and {{lastFullCurrencyName}}.\nYou can still send other currencies to {{fullCountryNameList}} and {{lastFullCountryName}}.",
+  "SignupInternationalActivityStep.Continue": "Continue",
+
+  "SignupIncomingDepositStep.Title": "Incoming deposits",
+  "SignupIncomingDepositStep.Subtitle": "Please tell us a bit more about your international and national deposits to your Klearing account.",
+  "SignupIncomingDepositStep.EstimatedMonthlyPaymentValue": "Estimated monthly foreign currency deposits in {{currencyCode}} value",
+  "SignupIncomingDepositStep.EstimatedMonthlyLocalPaymentValue": "Expected incoming {{currencyCode}} deposits from {{countryCode}}",
+  "SignupIncomingDepositStep.SelectOne": "Choose one option",
+  "SignupIncomingDepositStep.EstimatedMonthlyPaymentNum": "Estimated number of deposits per month",
+  "SignupIncomingDepositStep.DestinationOfDeposits": "From which countries will you receive deposits?",
+  "SignupIncomingDepositStep.SelectOneOrMoreCountries": "Select one or more countries",
+  "SignupIncomingDepositStep.CurrenciesOfDeposits": "Which currencies will be paid into your account?",
+  "SignupIncomingDepositStep.SelectOneOrMoreCurrencies": "Select one or more currencies",
+  "SignupIncomingDepositStep.Continue": "Continue",
+
+  "SignupStepUserDetails.Title": "Personal details",
+  "SignupStepUserDetails.SubTitle": "In order to verify your identity, please provide the following information:",
+  "SignupStepUserDetails.Nationality": "Nationality",
+  "SignupStepUserDetails.DateOfBirth": "Date of birth",
+  "SignupStepUserDetails.DayPlaceholder": "Day (DD)",
+  "SignupStepUserDetails.YearPlaceholder": "Year (YYYY)",
+  "SignupStepUserDetails.18YearsOld": "You need to be 18 years old or more to apply for an account",
+  "SignupStepUserDetails.Continue": "Continue",
+  "SignupStepUserDetails.ValidDayInMonth": "Please input a valid day ({{monthLabel}} has {{daysInMonth}} days)",
+
+  "SignupStepHomeAddress.Title": "Current home address",
+  "SignupStepHomeAddress.SubTitle": "In order to verify your identity, please provide the following information:",
+  "SignupStepHomeAddress.Country": "Country of residence",
+  "SignupStepHomeAddress.HomeAddress": "Home address",
+  "SignupStepHomeAddress.AddressLine1": "Address line 1",
+  "SignupStepHomeAddress.AddressLine2": "Address line 2 (optional)",
+  "SignupStepHomeAddress.City": "City",
+  "SignupStepHomeAddress.PostCode": "Postal code",
+  "SignupStepHomeAddress.Continue": "Continue",
+
+  "SignupStepPriceList.Title": "Price list",
+  "SignupStepPriceList.Free": "Free",
+  "SignupStepPriceList.Info": "Info",
+  "SignupStepPriceList.List": [
+    [
+      {
+        "name": "Open account",
+        "price": false
+      },
+      {
+        "name": "Monthly account fee",
+        "price": false
+      },
+      {
+        "name": "Multi-currency IBAN account",
+        "price": false
+      },
+      {
+        "name": "Euro IBAN account",
+        "price": false
+      }
+    ],
+    [
+      {
+        "name": "Currency exchange standard currencies",
+        "price": "0.29% / 29 bps",
+        "description": "SEK against EUR, USD, GBP, DKK, CHF",
+        "info": "Currency exchange cost (spread) is calculated against the middle rate. 1 basis point (bps) is 0.01%."
+      },
+      {
+        "name": "Currency against other currencies",
+        "price": "0.39% / 39 bps",
+        "description": "SEK against  NOK, PLN, CAD, CSK, and other currencies",
+        "info": "Currency exchange cost (spread) is calculated against the middle rate. 1 basis point (bps) is 0.01%."
+      }
+    ],
+    [
+      {
+        "name": "SEPA/euro payment",
+        "price": false,
+        "description": "“Regular” / Sepa payment to euro countries"
+      },
+      {
+        "name": "Swift payments shared costs",
+        "price": "SEK 65",
+        "info": "“Shared cost”, the recipient pays his bank costs."
+      },
+      {
+        "name": "Swift payments all charges",
+        "price": "SEK 350",
+        "info": "“All charges”,  the sender pays all bank costs, including the recipient’s bank charges."
+      },
+      {
+        "name": "“Regular” / Normal payment Scandinavia",
+        "price": "SEK 25",
+        "description": "Norway (NOK), Denmark (DKK), Sweden (SEK)"
+      },
+      {
+        "name": "“Regular” / Normal payment USA, United Kingdom",
+        "price": "SEK 25",
+        "description": "USA (USD), United Kingdom (GBP)"
+      },
+      {
+        "name": "“Regular” / Normal payment other countries",
+        "price": "SEK 35"
+      }
+    ],
+    [
+      {
+        "name": "SEPA deposit",
+        "price": false
+      },
+      {
+        "name": "Swift deposit from own account",
+        "price": false,
+        "info": "The sender’s account must be in the same name as the recipients’s account on Klearing."
+      },
+      {
+        "name": "Swift deposit from others, e.g. customers",
+        "price": "SEK 65"
+      }
+    ]
+  ],
+
+  "SignupStepCountry.Title": "Country of incorporation",
+  "SignupStepCountry.SubTitle": "Let us know where your company is incorporated so that we can assist you with the account opening",
+  "SignupStepCountry.ChooseCountry": "Choose a country",
+  "SignupStepCountry.Continue": "Continue"
+}

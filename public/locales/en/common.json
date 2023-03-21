@@ -1,0 +1,756 @@
+{
+  "StaticCountries": {
+    "DK": "Denmark",
+    "ES": "Spain",
+    "NO": "Norway",
+    "SE": "Sweden",
+    "CZ": "Czech Republic",
+    "HU": "Hungary",
+    "JP": "Japan",
+    "IN": "India",
+    "CN": "China",
+    "CO": "Colombia",
+    "AT": "Austria",
+    "BE": "Belgium",
+    "CH": "Switzerland",
+    "CY": "Cyprus",
+    "DE": "Germany",
+    "EE": "Estonia",
+    "FI": "Finland",
+    "FR": "France",
+    "GB": "United Kingdom",
+    "GR": "Greece",
+    "IE": "Ireland",
+    "IT": "Italy",
+    "LT": "Lithuania",
+    "LU": "Luxembourg",
+    "LV": "Latvia",
+    "MT": "Malta",
+    "PT": "Portugal",
+    "SI": "Slovenia",
+    "SK": "Slovakia",
+    "NL": "Netherlands",
+    "PL": "Poland",
+    "RO": "Romania",
+    "TR": "Turkey",
+    "US": "United States of America"
+  },
+  "Email": "Email",
+  "Months.January": "January",
+  "Months.February": "February",
+  "Months.March": "March",
+  "Months.April": "April",
+  "Months.May": "May",
+  "Months.June": "June",
+  "Months.July": "July",
+  "Months.August": "August",
+  "Months.September": "September",
+  "Months.October": "October",
+  "Months.November": "November",
+  "Months.December": "December",
+  "Month": "Month",
+  "LegalStructure": [
+    {
+      "code": "ENK_NO",
+      "name": "Enkeltmannsforetak",
+      "abbreviation": "ENK",
+      "description": "Sole trader"
+    },
+    {
+      "code": "ASA_NO",
+      "name": "Allmennaksjeselskap",
+      "abbreviation": "ASA",
+      "description": "Public limited company"
+    },
+    {
+      "code": "AS_NO",
+      "name": "Aksjeselskap",
+      "abbreviation": "AS",
+      "description": "Private limited company"
+    },
+    {
+      "code": "KS_NO",
+      "name": "Kommandittselskap",
+      "abbreviation": "KS",
+      "description": "Limited partnership"
+    },
+    {
+      "code": "ANS_NO",
+      "name": "Ansvarlig selskap",
+      "abbreviation": "ANS",
+      "description": "General partnership"
+    },
+    {
+      "code": "SC_ES",
+      "name": "Sociedad Colectiva",
+      "abbreviation": "S.C.",
+      "description": "General partnership"
+    },
+    {
+      "code": "ST_ES",
+      "name": "Empresario individual",
+      "abbreviation": null,
+      "description": "Sole trader"
+    },
+    {
+      "code": "SL_ES",
+      "name": "Sociedad Limitada",
+      "abbreviation": "S.L.",
+      "description": "Private limited company"
+    },
+    {
+      "code": "SA_ES",
+      "name": "Sociedad Anónima",
+      "abbreviation": "S.A.",
+      "description": "Public limited company"
+    },
+    {
+      "code": "SCRA_ES",
+      "name": "Sociedad Comanditaria",
+      "abbreviation": "S.Com.",
+      "description": "Limited partnership"
+    },
+    {
+      "code": "HA_SE",
+      "name": "Handelsbolag",
+      "abbreviation": "HB",
+      "description": "General partnership"
+    },
+    {
+      "code": "ST_SE",
+      "name": "Enskild firma",
+      "abbreviation": null,
+      "description": "Sole trader"
+    },
+    {
+      "code": "AB_SE",
+      "name": "Aktiebolag",
+      "abbreviation": "AB",
+      "description": "Private limited company"
+    },
+    {
+      "code": "ABP_SE",
+      "name": "Publikt aktiebolag",
+      "abbreviation": "AB (publik)",
+      "description": "Public limited company"
+    },
+    {
+      "code": "KB_SE",
+      "name": "Kommanditbolag",
+      "abbreviation": "KB",
+      "description": "Limited partnership"
+    },
+    {
+      "code": "KS_DK",
+      "name": "Kommanditselskab",
+      "abbreviation": "K/S",
+      "description": "Limited partnership"
+    },
+    {
+      "code": "PS_DK",
+      "name": "Partnerselskab",
+      "abbreviation": "P/S",
+      "description": "Limited liability partnership"
+    },
+    {
+      "code": "AB_DK",
+      "name": "Aktieselskab",
+      "abbreviation": "A/S",
+      "description": "Public limited company"
+    },
+    {
+      "code": "APS_DK",
+      "name": "Anpartsselskab",
+      "abbreviation": "ApS",
+      "description": "Private limited company"
+    },
+    {
+      "code": "IS_DK",
+      "name": "Interessentskab",
+      "abbreviation": "I/S",
+      "description": "General partnership"
+    },
+    {
+      "code": "ENK_DK",
+      "name": "Enkeltmandsvirksomhed",
+      "abbreviation": null,
+      "description": "Sole trader"
+    }
+  ],
+  "Categories": [
+    { "code": 11, "name": "Charity or not-for-profit" },
+    { "code": 1, "name": "Consulting, IT, or business services" },
+    { "code": 2, "name": "Design, marketing or communication" },
+    { "code": 10, "name": "Education or learning" },
+    { "code": 4, "name": "Entertainment, arts or photography" },
+    {
+      "code": 8,
+      "name": "Financial services, products, or holding companies"
+    },
+    { "code": 6, "name": "Food, beverages, or tobacco" },
+    { "code": 5, "name": "Health, sports or personal care" },
+    { "code": 13, "name": "Other, not listed above" },
+    {
+      "code": 7,
+      "name": "Other retail, wholesale, or manufacturing"
+    },
+    { "code": 9, "name": "Real estate or construction" },
+    { "code": 3, "name": "Travel, accommodation, or transport" },
+    {
+      "code": 12,
+      "name": "Utilities and public or government services"
+    }
+  ],
+  "SubCategories": [
+    {
+      "code": 100,
+      "name": "All activities"
+    },
+    {
+      "code": 1,
+      "name": "Advertising and marketing"
+    },
+    {
+      "code": 3,
+      "name": "Architecture or interior design"
+    },
+    {
+      "code": 11,
+      "name": "Cleaning, repair and maintenance services"
+    },
+    {
+      "code": 15,
+      "name": "Company establishment/formation services"
+    },
+    {
+      "code": 2,
+      "name": "Design"
+    },
+    {
+      "code": 10,
+      "name": "Employment placement and recruitment services"
+    },
+    {
+      "code": 12,
+      "name": "Financial (inc. tax, accounting, audit)"
+    },
+    {
+      "code": 16,
+      "name": "Freelance platform"
+    },
+    {
+      "code": 7,
+      "name": "IT consulting/services - other"
+    },
+    {
+      "code": 4,
+      "name": "IT development"
+    },
+    {
+      "code": 6,
+      "name": "IT hosting services"
+    },
+    {
+      "code": 13,
+      "name": "Legal services"
+    },
+    {
+      "code": 9,
+      "name": "Management consulting and coaching"
+    },
+    {
+      "code": 18,
+      "name": "Other consulting"
+    },
+    {
+      "code": 17,
+      "name": "Other services"
+    },
+    {
+      "code": 8,
+      "name": "Scientific or technical consulting"
+    },
+    {
+      "code": 5,
+      "name": "Software as a service"
+    },
+    {
+      "code": 14,
+      "name": "Translation or language services"
+    },
+    {
+      "code": 97,
+      "name": "Online learning"
+    },
+    {
+      "code": 99,
+      "name": "Schools and universities"
+    },
+    {
+      "code": 98,
+      "name": "Teaching and tutoring"
+    },
+    {
+      "code": 45,
+      "name": "Adult content"
+    },
+    {
+      "code": 41,
+      "name": "Arts - fine art sales, auctions or procurement"
+    },
+    {
+      "code": 35,
+      "name": "Audio and video"
+    },
+    {
+      "code": 38,
+      "name": "Books, magazines, blogs, news"
+    },
+    {
+      "code": 36,
+      "name": "Events and entertainment"
+    },
+    {
+      "code": 43,
+      "name": "Gambling, betting, and lotteries"
+    },
+    {
+      "code": 42,
+      "name": "Performing arts"
+    },
+    {
+      "code": 37,
+      "name": "Photography"
+    },
+    {
+      "code": 44,
+      "name": "Telecommunications services"
+    },
+    {
+      "code": 39,
+      "name": "Video gaming"
+    },
+    {
+      "code": 91,
+      "name": "Crowdfunding and peer lending"
+    },
+    {
+      "code": 89,
+      "name": "Cryptocurrency financial services"
+    },
+    {
+      "code": 85,
+      "name": "Financial (incl. tax, accounting, audit)"
+    },
+    {
+      "code": 87,
+      "name": "Holding company"
+    },
+    {
+      "code": 90,
+      "name": "Insurance"
+    },
+    {
+      "code": 86,
+      "name": "Investments"
+    },
+    {
+      "code": 88,
+      "name": "Money service business"
+    },
+    {
+      "code": 92,
+      "name": "Other financial services"
+    },
+    {
+      "code": 56,
+      "name": "Food manufacturing and retail"
+    },
+    {
+      "code": 57,
+      "name": "Restaurants and catering"
+    },
+    {
+      "code": 61,
+      "name": "Soft drinks"
+    },
+    {
+      "code": 62,
+      "name": "Tobacco"
+    },
+    {
+      "code": 59,
+      "name": "Vineyards"
+    },
+    {
+      "code": 58,
+      "name": "Vitamins and dietary supplements"
+    },
+    {
+      "code": 60,
+      "name": "Wine and spirits wholesale"
+    },
+    {
+      "code": 46,
+      "name": "Beauty products and services"
+    },
+    {
+      "code": 50,
+      "name": "Dental services"
+    },
+    {
+      "code": 52,
+      "name": "Elderly or other care home"
+    },
+    {
+      "code": 48,
+      "name": "Fitness or sports services"
+    },
+    {
+      "code": 51,
+      "name": "Medical equipment"
+    },
+    {
+      "code": 49,
+      "name": "Medical or veterinary services"
+    },
+    {
+      "code": 53,
+      "name": "Nursing or other care services"
+    },
+    {
+      "code": 54,
+      "name": "Pharmaceuticals"
+    },
+    {
+      "code": 55,
+      "name": "Pharmacy"
+    },
+    {
+      "code": 47,
+      "name": "Vitamins and dietary supplements"
+    },
+    {
+      "code": 106,
+      "name": "I don't fall in a category listed"
+    },
+    {
+      "code": 73,
+      "name": "Arts - fine art sales, auctions or procurement"
+    },
+    {
+      "code": 74,
+      "name": "Arts - other arts and crafts products or services"
+    },
+    {
+      "code": 64,
+      "name": "Beauty products and services"
+    },
+    {
+      "code": 81,
+      "name": "Chemicals"
+    },
+    {
+      "code": 63,
+      "name": "Clothing and accessories"
+    },
+    {
+      "code": 67,
+      "name": "Electronics and electrical products"
+    },
+    {
+      "code": 79,
+      "name": "Farming, seeds, plants"
+    },
+    {
+      "code": 72,
+      "name": "Firearms, weapons, and military goods/services"
+    },
+    {
+      "code": 65,
+      "name": "Home and garden"
+    },
+    {
+      "code": 76,
+      "name": "Jewellery - fashion jewellery"
+    },
+    {
+      "code": 75,
+      "name": "Jewellery - fine jewellery, watches"
+    },
+    {
+      "code": 82,
+      "name": "Legal highs and related accessories"
+    },
+    {
+      "code": 70,
+      "name": "Machinery and equipment"
+    },
+    {
+      "code": 78,
+      "name": "Manufacturing (I don't fall in a category listed)"
+    },
+    {
+      "code": 84,
+      "name": "Other retail or wholesale (not listed above)"
+    },
+    {
+      "code": 80,
+      "name": "Pets or pet supplies"
+    },
+    {
+      "code": 77,
+      "name": "Precious stones, diamonds, or metals"
+    },
+    {
+      "code": 83,
+      "name": "Selling products on behalf of others (incl. auction, online marketplace)"
+    },
+    {
+      "code": 71,
+      "name": "Sports equipment (excl. weapons)"
+    },
+    {
+      "code": 66,
+      "name": "Toys, games and musical instruments"
+    },
+    {
+      "code": 69,
+      "name": "Vehicle accessories, spare parts, manufacturing"
+    },
+    {
+      "code": 68,
+      "name": "Vehicle sales"
+    },
+    {
+      "code": 95,
+      "name": "Architecture or interior design"
+    },
+    {
+      "code": 94,
+      "name": "Construction"
+    },
+    {
+      "code": 96,
+      "name": "Real estate development"
+    },
+    {
+      "code": 93,
+      "name": "Real estate sale, purchase, and management"
+    },
+    {
+      "code": 29,
+      "name": "Accommodation or hotels"
+    },
+    {
+      "code": 32,
+      "name": "Freight transport"
+    },
+    {
+      "code": 30,
+      "name": "Other travel or tour activities"
+    },
+    {
+      "code": 31,
+      "name": "Passenger transport or rentals"
+    },
+    {
+      "code": 33,
+      "name": "Rideshare and transport share services"
+    },
+    {
+      "code": 28,
+      "name": "Tour operators"
+    },
+    {
+      "code": 34,
+      "name": "Transport - other"
+    },
+    {
+      "code": 27,
+      "name": "Travel agencies"
+    },
+    {
+      "code": 102,
+      "name": "Cleaning, repair and maintenance services"
+    },
+    {
+      "code": 103,
+      "name": "Government or political organisation"
+    },
+    {
+      "code": 105,
+      "name": "Other, not listed above"
+    },
+    {
+      "code": 104,
+      "name": "Telecommunications services"
+    },
+    {
+      "code": 101,
+      "name": "Utility services and providers"
+    },
+    {
+      "code": 19,
+      "name": "Advertising and marketing"
+    },
+    {
+      "code": 21,
+      "name": "Architecture or interior design"
+    },
+    {
+      "code": 22,
+      "name": "Audio and video"
+    },
+    {
+      "code": 20,
+      "name": "Design"
+    },
+    {
+      "code": 23,
+      "name": "Photography"
+    },
+    {
+      "code": 24,
+      "name": "Print and online media"
+    },
+    {
+      "code": 26,
+      "name": "Telecommunications services"
+    },
+    {
+      "code": 25,
+      "name": "Translation or language services"
+    }
+  ],
+  "Roles": [
+    {
+      "id": "USER",
+      "name": "User",
+      "index": 4
+    },
+    {
+      "id": "DIRECTOR",
+      "name": "Director (a board member)",
+      "index": 1
+    },
+    {
+      "id": "SIGNATORY",
+      "name": "Signatory",
+      "index": 2
+    },
+    {
+      "id": "OTHER",
+      "name": "Other",
+      "index": 3
+    },
+    {
+      "id": "OWNER",
+      "name": "Owner",
+      "index": 0
+    }
+  ],
+  "Currencies": [
+    {
+      "code": "GBP",
+      "name": "British pound"
+    },
+    {
+      "code": "CZK",
+      "name": "Czech koruna"
+    },
+    {
+      "code": "DKK",
+      "name": "Danish krone"
+    },
+    {
+      "code": "EUR",
+      "name": "Euro"
+    },
+    {
+      "code": "HUF",
+      "name": "Hungarian forint"
+    },
+    {
+      "code": "JPY",
+      "name": "Japanese yen"
+    },
+    {
+      "code": "NOK",
+      "name": "Norwegian krone"
+    },
+    {
+      "code": "PLN",
+      "name": "Polish zloty"
+    },
+    {
+      "code": "RON",
+      "name": "Romanian leu"
+    },
+    {
+      "code": "SEK",
+      "name": "Swedish krona"
+    },
+    {
+      "code": "CHF",
+      "name": "Swiss franc"
+    },
+    {
+      "code": "TRY",
+      "name": "Turkish lira"
+    },
+    {
+      "code": "USD",
+      "name": "US dollar"
+    }
+  ],
+
+  "DatePicker.SelectDate": "Select date",
+  "DatePicker.Today": "Today",
+
+  "Button.Cancel": "Cancel",
+  "Button.Clear": "Clear",
+  "Button.Continue": "Continue",
+  "Button.Schedule": "Schedule this payment",
+
+  "EstimatedSavings.Main": "estimated savings compared to traditional banks",
+  "EstimatedSavings.MainShort": "estimated savings",
+  "EstimatedSavings.Description": "Here you can view and download your banking account details to receive national and/or international transactions.",
+  "EstimatedSavings.LocalPayment": "Estimated savings is calculated by using the average payment fees from a sample of the largest traditional banks in your country and compare it to our payment fees.",
+  "EstimatedSavings.InternationPayment": "Estimated savings is calculated by using the average normal FX conversion cost from a sample of the largest traditional banks in your country and compare it to our FX conversion cost. Additionally we include in the same way your direct savings of fixed payment fees.",
+  "EstimatedSavings.FxSpot": "Estimated savings is calculated by using the average normal FX conversion cost from a sample of the largest traditional banks in your country and compare it to our FX conversion cost.",
+
+  "CodePrompt.NoCode": "No code has been entered",
+  "CodePrompt.Incorrect": "Entered code is not correct",
+  "CodePrompt.TimeIsOut": "Time has expired",
+  "CodePrompt.CodeValid": "Code is valid for",
+  "CodePrompt.KlearingSecurity": "Klearing security code required",
+  "CodePrompt.GetCode": "Get code",
+  "CodePrompt.Confirm": "Confirm",
+  "CodePrompt.EnterCode": "Enter code sent to your mobile",
+  "CodePrompt.SixDigit": "A 6 digit code will be sent to your mobile",
+  "CodePrompt.NotArrived": "Code not arrived?",
+  "CodePrompt.AnotherCode": "You may order another code in {{secondsUntilCanRequestNewCode}} seconds",
+  "CodePrompt.TryAgain": "Try again",
+  "CodePrompt.DidntGet": "Didn’t get a code?",
+  "CodePrompt.Processing": "Processing...",
+
+  "TelephoneInput.Placeholder": "Your phone number",
+  "TelephoneInput.Error": "You have entered an invalid mobile number. Please try again.",
+  "FXGraph.WeUseExchangeRate": "We use real exchange rates",
+  "FXGraph.From": "From",
+  "FXGraph.To": "To",
+  "FXGraph.SearchCurrency": "Search for a currency",
+  "FXGraph.High": "High:",
+  "FXGraph.Average": "Average:",
+  "FXGraph.Low": "Low:",
+  "FXGraph.AsOf": "As of",
+  "FXGraph.RateDuration": "The payment amount at the highest {{amount}} rate in the last {{duration}}",
+  "FXGraph.Rate": "The payment amount at the current {{amount}} rate",
+  "FXGraph.RateLowest": "The payment amount at the lowest {{amount}} rate in the last {{duration}}",
+
+  "SessionExpired.YourBankingSession": "Your banking session will expire in",
+  "SessionExpired.DoYouWant": "Do you want to extend the session?",
+  "SessionExpired.Ignore": "Ignore",
+  "SessionExpired.Extend": "Extend"
+}

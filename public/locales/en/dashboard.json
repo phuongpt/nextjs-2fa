@@ -1,0 +1,19 @@
+{
+  "Dashboard.TotalValue": "Total {{code}} value of all balances",
+  "Dashboard.AccountDetails": "Your account details",
+  "Dashboard.HowSendMoney": "How to send money to your account",
+  "Dashboard.MakePayment": "Make payment",
+  "Dashboard.ScheduleTransaction": "Schedule payment",
+  "Dashboard.FXTransaction": "FX transaction",
+  "Dashboard.AddRecipient": "Add recipient",
+  "Dashboard.AddSupplier": "Add supplier",
+  "Dashboard.SelectRecieve": "Select currency to receive",
+  "Dashboard.UseCurrency": "Use the following bank details to receive {{currency}} to your account.",
+  "Dashboard.AccountName": "Name of account",
+  "Dashboard.Address": "Address",
+  "Dashboard.Country": "Country",
+  "Dashboard.MouseOver": "On mouse over you can copy the account details",
+  "NoBanking.Welcome": "Welcome {{name}}",
+  "NoBanking.Description": "By financial regulations we are required to collect some necessary data from you to be able to set up a bank account with Klearing.\nOur compliance team is currently processing your banking application.\nAs soon as this is completed you will be notified and requested to do a first deposit to activate the account.\n\nBest regards,\n{{name}}",
+  "NoBanking.ContinueSignUp": "Continue sign up"
+}

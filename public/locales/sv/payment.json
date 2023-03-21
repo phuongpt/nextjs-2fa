@@ -1,0 +1,9 @@
+{
+  "PaymentConvertCurrency.ExchangeRate": "Konverteringskurs",
+  "PaymentConvertCurrency.ExchangeRateWithTimer": "<span class='refresh-label'>uppdaterar om </span><span class='timer-seconds'>{{seconds}} sek</span>",
+  "PaymentFxRateList.OfferedRate": "Erbjuden kurs",
+  "PaymentFxRateList.OfferedRateWithTimer": "<span class='refresh-label'>uppdaterar om </span><span class='timer-seconds'>{{seconds}} sek</span>",
+  "Payment.ConversionRate": "Konverteringskurs",
+  "Payment.ConversionRateWithTimer": "<span class='refresh-label'> ...uppdateras om </span><span class='timer-seconds'>{{seconds}} sek</span>",
+  "Payment.ExpectedReceiptDate": "Förväntade intäkter av medel"
+}
