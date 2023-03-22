@@ -5,7 +5,7 @@ This is a sample NextJS project that includes support for two-factor authenticat
 
 
 ## Screenshot
-![](https://github.com/phuongpt/nextjs-2fa/blob/develop/docs/images/login.cy.ts.gif)
+![](https://github.com/phuongpt/nextjs-2fa/blob/develop/docs/images/login.cy.ts.mp4)
 
 ```yarn install```
 ## Installation
@@ -30,4 +30,4 @@ This will start the development server and open the application in your browser.
 
 ### This project includes Cypress for testing. To run the tests, use the following command:
 
-```yarn run cypress:headless```
+```yarn run cypress```

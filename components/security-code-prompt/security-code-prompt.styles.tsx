@@ -14,7 +14,7 @@ export const StyledPaper = styled(Paper)`
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-
+  background-color: transparent;
   &.signup {
     padding-top: 10px;
   }

@@ -9,8 +9,8 @@ export const AuthProcessingContainer = styled.div`
   outline: none;
   height: 100%;
   position: absolute;
-  background-color: ${Theme.palette.white};
   border-radius: 4px;
+  text-align: center
 `
 
 export const Wrapper = styled.div<{

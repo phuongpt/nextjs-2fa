@@ -117,10 +117,10 @@ export const TwoFactorAuthenticationComponent = ({
   useEffect(() => {
     if (autoRequest) requestCode()
   }, [])
-
+  const showWaiting = isWaiting || isCompleted;
   return (
     <StyledSecurityCodePromptWrapper data-cy="twofactor">
-      <SecurityCodePrompt
+      {!showWaiting && <SecurityCodePrompt
         code={DEFAULT_CODE || code}
         isWaiting={isWaiting}
         isExpired={isExpired}
@@ -134,7 +134,8 @@ export const TwoFactorAuthenticationComponent = ({
         skipGetCode={skipGetCode}
         customClassName={customClassName}
       />
-      {(isWaiting || isCompleted) && (
+      }
+      {showWaiting && (
         <AuthProcessingOverlay
           title={overlayTitle}
           isCompleted={multiStepProgressFlag || isCompleted}

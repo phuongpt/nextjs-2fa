@@ -7,16 +7,11 @@
     "prebuild": "jest --bail -u",
     "build": "next build",
     "start": "next start",
-    "cypress": "cypress open",
-    "cypress:headless": "cypress run",
+    "cypress": "cypress run",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "clean-gone": "scripts/clean-gone-branches.sh",
-    "coverage": "jest --coverage",
-    "storybook": "start-storybook -p 6006 -s ./public",
-    "build-storybook": "build-storybook -o docs-build"
+    "lint:fix": "next lint --fix"
   },
   "private": true,
   "dependencies": {

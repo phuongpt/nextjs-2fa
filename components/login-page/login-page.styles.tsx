@@ -104,8 +104,8 @@ export const FormWrapper = styled.div`
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  background-color: ${Theme.palette.white};
-  padding: 0 15px;
+  padding: 0 30px;
+  border: 2px solid;
   font-family: ${Theme.typography.inter};
   z-index: 1;
 

@@ -5,4 +5,7 @@ export const GlobalStyles = createGlobalStyle`
     --header-height: 56px;
     --section-header-height: 66px;
   }
+  body {
+    background-color: #dedede
+  }
 `

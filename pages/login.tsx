@@ -42,7 +42,6 @@ const Login = () => {
   const [loginToken, setLoginToken] = useState('')
   const [show2fa, setShow2fa] = useState(false)
   const [email, setEmail] = useState('')
-  const [recordedActivity, setRecordedActivity] = useState<string | null>(null)
 
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
   const { query } = router
@@ -54,34 +53,9 @@ const Login = () => {
       ? parseInt(query.last_activity as string, 10)
       : null
 
-    if (lastActivity) {
-      // Get the diff date between now and last activity
-      const diffDate = DateTime.now()
-        .diff(DateTime.fromMillis(lastActivity), ['hour', 'minute', 'second'])
-        .toObject()
-
-      const recordedActivity: string[] = []
-      if (diffDate.hours && diffDate.hours > 0) {
-        recordedActivity.push(String(getFormattedTime(diffDate.hours)))
-      }
-
-      recordedActivity.push(
-        String(getFormattedTime(diffDate.minutes)).padStart(2, '0')
-      )
-
-      recordedActivity.push(
-        String(getFormattedTime(diffDate.seconds)).padStart(2, '0')
-      )
-
-      setRecordedActivity(recordedActivity.join(':'))
-    }
-
     setEmail(emailParam)
   }, [query])
 
-  const getFormattedTime = (time?: number): number => {
-    return Math.max(Math.ceil(time || 0), 0)
-  }
 
   const logIn = async () => {
     setErrorMessage(null)
@@ -107,14 +81,6 @@ const Login = () => {
     }
   }
 
-  useEffect(() => {
-    if (getLocalStorageItem(StorageKey.SIGNUP_ID)) {
-      removeLocalStorageItem(StorageKey.SIGNUP_ID)
-    }
-
-    window.addEventListener('storage', redirect)
-    return () => window.removeEventListener('storage', redirect)
-  }, [])
 
   const handleVerifyCode = async (code: string, retry: CallableFunction) => {
     try {
@@ -127,7 +93,6 @@ const Login = () => {
         returnPath = Router.query.return
       }
 
-      //temporary solution until we will have completed channels
       if (
         (typeof Router.query.return === 'string') ||
         !Router.query.return
@@ -147,9 +112,6 @@ const Login = () => {
 
   return (
     <PageContainer data-cy="loginpage">
-      <StyledHeader>
-        {/* <Logo /> */}
-      </StyledHeader>
       <Scrollbars
         autoHide
         autoHideTimeout={1000}
@@ -161,13 +123,6 @@ const Login = () => {
           <StyledContainer>
             <FormWrapper>
               <FormContent className="content">
-                <Heading>
-
-                </Heading>
-                <Spacer axis="y" size={20} />
-                <NewToTradebrite>
-
-                </NewToTradebrite>
                 {!show2fa ? (
                   <>
                     <Spacer axis="y" size={50} />
@@ -202,12 +157,6 @@ const Login = () => {
                         }
                       />
                       <Spacer axis="y" size={13} />
-                      <ForgotPassword>
-                        <Link href="/reset-password">
-                          {t('SignIn.ForgotPassword')}
-                        </Link>
-                      </ForgotPassword>
-                      <Spacer axis="y" size={30} />
                       <LoginButtonContainer>
                         <LoginButton type="submit" data-cy="loginbutton">
                           {t('SignIn.SignIn')}
@@ -233,25 +182,7 @@ const Login = () => {
                 )}
                 <StyledDivider />
                 <Spacer axis="y" size={20} />
-                <TermsAndPolicy>
-                  {t('SignIn.YouAccept')}{' '}
-                  <CustomLink
-                    href={TERMS_AND_CONDITIONS}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span>{t('SignIn.Terms')}</span>
-                  </CustomLink>{' '}
-                  {t('SignIn.And')}{' '}
-                  <CustomLink
-                    href={TERMS_AND_CONDITIONS}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span>{t('SignIn.Policy')}</span>
-                  </CustomLink>
-                  .
-                </TermsAndPolicy>
+
               </FormContent>
             </FormWrapper>
           </StyledContainer>
