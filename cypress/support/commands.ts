@@ -25,20 +25,10 @@ Cypress.Commands.add(
   }
 )
 
-Cypress.Commands.add('interceptCountries', () => {
-  cy.intercept(
-    {
-      method: 'GET',
-      pathname: '/api/organization/static/country',
-    },
-    { fixture: 'organization/country.json' }
-  )
-})
-
 Cypress.Commands.add('clearAllStorage', () => {
   cy.clearAllCookies()
   cy.clearAllSessionStorage()
   cy.clearAllLocalStorage()
 })
 
-export {}
+export { }
