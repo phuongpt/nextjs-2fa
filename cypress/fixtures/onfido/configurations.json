@@ -1,0 +1,115 @@
+{
+  "applicant_fraud": {
+    "sardine_enable_behavior_biometrics": false,
+    "scopes": []
+  },
+  "device_intelligence": {
+    "passive_signals": {
+      "behavioral": { "enabled": true },
+      "enabled": false,
+      "fingerprintjs": { "enabled": true },
+      "mouseTracker": { "enabled": true },
+      "sardine": { "enabled": false },
+      "touchTracker": { "enabled": true }
+    }
+  },
+  "document_capture": {
+    "auto_capture_enabled_documents": [
+      { "country": "USA", "document_type": "driving_licence" },
+      { "country": "CAN", "document_type": "driving_licence" }
+    ],
+    "auto_capture_timeout_ms": 15000,
+    "enable_auto_capture_doc_capture": true,
+    "enable_js_camera_doc_capture": false,
+    "enable_mrz_detection": true,
+    "max_total_retries": 2,
+    "nfc": { "enable_can_entry_screen": false },
+    "torch_turn_on_time_ms": -1,
+    "video_bitrate": 5000000,
+    "video_length_ms": 1500
+  },
+  "experimental_features": {
+    "disable_document_crop": false,
+    "enable_camerax": false,
+    "enable_cutoff_improvements": false,
+    "enable_focus_improvements": false,
+    "enable_four_three_aspect_ratio": false,
+    "enable_image_quality_service": false,
+    "enable_increased_compression_quality": false,
+    "enable_liveness_experiment": false,
+    "enable_multi_frame_capture": false,
+    "enable_optimal_resolution_improvements": false,
+    "motion_experiment": {
+      "enabled": false,
+      "reason": "feature_flag_disabled"
+    },
+    "performance_benchmark": { "enabled": true, "threshold": 30 }
+  },
+  "motion_capture": {
+    "supported": true,
+    "video_settings": {
+      "bitrate": 5000000,
+      "codec": "H264",
+      "codec_profile": 30,
+      "duration": 15000,
+      "exposure_lock": true,
+      "focus_lock": true,
+      "framerate": 25,
+      "white_balance_lock": true
+    }
+  },
+  "sdk_features": {
+    "anonymous_uuid": "eecad9fb-db09-49eb-9994-2dcb46a04a77",
+    "disable_cross_device_sms": false,
+    "enable_document_support_rules": false,
+    "enable_in_house_analytics": true,
+    "enable_on_device_face_detection": true,
+    "enable_performance_analytics": false,
+    "enable_require_applicant_consents": true,
+    "logger": { "enabled": false, "levels": ["error", "fatal"] }
+  },
+  "validations": {
+    "on_device": {
+      "blur": {
+        "applies_to": [{ "doc_type": "ALL" }],
+        "max_total_retries": 2,
+        "threshold": 150
+      }
+    },
+    "scopes": [
+      {
+        "config": { "validators": ["blur", "edges"] },
+        "scopes": {
+          "country": "ROM",
+          "doc_type": "PP",
+          "side": "back",
+          "type": "document"
+        }
+      },
+      {
+        "config": { "validators": ["blur", "glare", "barcode", "edges"] },
+        "scopes": {
+          "country": ["USA", "CAN"],
+          "doc_type": "DL",
+          "mode": "auto",
+          "side": "back",
+          "stage": "live",
+          "type": "document"
+        }
+      },
+      {
+        "config": { "validators": ["blur", "face"] },
+        "scopes": { "type": "selfie" }
+      },
+      {
+        "config": { "validators": ["blur", "glare", "edges"] },
+        "scopes": { "mode": "auto", "stage": "live", "type": "document" }
+      },
+      {
+        "config": { "validators": ["glare"] },
+        "scopes": { "mode": "manual", "stage": "live", "type": "document" }
+      }
+    ],
+    "validators": ["blur"]
+  }
+}

@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useMemo } from 'react'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
-import * as Auth from '../../api/auth/methods'
+import * as Auth from '@/api/auth/methods'
 import { useAuthentication } from '.'
 import { useSession } from './use-session'
 import { DateTime } from 'luxon'
-import { getLocalStorageItem, StorageKey } from '../../utils/local-storage'
-import { createLogInPath } from '../../routing/auth'
+import { getLocalStorageItem, StorageKey } from '@/utils/local-storage'
+import { createLogInPath } from '@/routing/auth'
 
 /**
  * Allows authenticated users to render the component. Unauthenticated users

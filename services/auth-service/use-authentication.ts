@@ -7,9 +7,9 @@ import {
 } from '.'
 import { OnCodeCallback } from './internals/use-2fa-prompt'
 import { TokenClaims } from './token-claims'
-import { TokenResponse } from '../../pages/api/auth/schemas'
 import { useTokenClaims } from '../../libs/auth/src'
-import { refresh } from '../../api/auth/methods'
+import { TokenResponse, } from '@/api/auth/schemas'
+import { refresh } from '@/api/auth/methods'
 
 export const useAuthentication = (
   criteria: AuthenticationCriteria

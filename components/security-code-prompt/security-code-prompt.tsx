@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react'
 import ReactInputVerificationCode from 'react-input-verification-code'
+import { Tooltip } from '../shared/tooltip/tooltip'
 import SecurityCodeMenu from '../security-code-menu/security-code-menu'
-import { formatSecondsAsMinutesSeconds } from '@/utils/seconds-as-minutes'
 import { useTranslation } from 'next-i18next'
 
 import {
@@ -20,6 +20,7 @@ import {
   StyledInputItem,
   ValidForText,
 } from './security-code-prompt.styles'
+import { formatSecondsAsMinutesSeconds } from '../../utils/seconds-as-minutes'
 
 export interface SecurityCodePromptProps {
   code: string
@@ -54,6 +55,14 @@ export const SecurityCodePrompt = ({
   const [menuOpener, setMenuOpener] = useState<HTMLDivElement | null>(null)
   const { t } = useTranslation(['common'])
 
+  const handleSubmit = (isRequested) => {
+    if (isRequested) {
+      onCodeCompleted(code)
+    } else {
+      requestCode()
+    }
+  }
+
   // focus on request code button if time expired
   useEffect(() => {
     if (
@@ -81,8 +90,6 @@ export const SecurityCodePrompt = ({
 
   const getError = () => {
     switch (true) {
-      case isExpired && secondsUntilCodeExpires < 6:
-        return t('CodePrompt.NoCode')
       case isCodeError:
         return t('CodePrompt.Incorrect')
       case isExpired:
@@ -99,8 +106,18 @@ export const SecurityCodePrompt = ({
       elevation={0}
       className={!customClassName ? '' : customClassName}
     >
+      <CodeExpiration
+        className={secondsUntilCodeExpires > 0 ? '' : 'is-invisible'}
+      >
+        <ValidForText>{t('CodePrompt.CodeValid')} </ValidForText>
+        {secondsUntilCodeExpires > 0 && (
+          <Timer>
+            {formatSecondsAsMinutesSeconds(secondsUntilCodeExpires)}
+          </Timer>
+        )}
+      </CodeExpiration>
       <Title>{t('CodePrompt.AppSecurity')}</Title>
-      <Subheading data-cy="securitysubheading">
+      <Subheading className={hasError ? 'error' : ''} data-cy="securitysubheading">
         {hasError
           ? getError()
           : secondsUntilCodeExpires > 0
@@ -124,17 +141,37 @@ export const SecurityCodePrompt = ({
             placeholder=""
             length={codeLength}
             onChange={onCodeChanged}
-            onCompleted={onCodeCompleted}
           />
         )}
       </CodeInput>
-      <CodeExpiration
-        className={secondsUntilCodeExpires > 0 ? '' : 'is-hidden'}
-      >
-        <ValidForText>{t('CodePrompt.CodeValid')} </ValidForText>
-        <Timer>{formatSecondsAsMinutesSeconds(secondsUntilCodeExpires)}</Timer>
-      </CodeExpiration>
       <GetCodeBlock>
+        <Tooltip
+          title={
+            secondsUntilCanRequestNewCode > 0 ? (
+              <OrderCodeTooltip
+                title={t('CodePrompt.NotArrived')}
+                subtitle={t('CodePrompt.AnotherCode', {
+                  secondsUntilCanRequestNewCode,
+                })}
+              />
+            ) : null
+          }
+        >
+          <div
+            id="titleWrapper"
+            onClick={(event) => {
+              setMenuOpener(event.currentTarget)
+            }}
+          >
+            <HelpText>
+              {secondsUntilCodeExpires > 0
+                ? isCodeError
+                  ? t('CodePrompt.TryAgain')
+                  : t('CodePrompt.DidntGet')
+                : ''}
+            </HelpText>
+          </div>
+        </Tooltip>
         {menuOpener && (
           <SecurityCodeMenu
             target={menuOpener}
@@ -144,17 +181,25 @@ export const SecurityCodePrompt = ({
           />
         )}
       </GetCodeBlock>
-      {secondsUntilCodeExpires <= 0 && !skipGetCode && (
+      {!skipGetCode && (
         <OrderCodeBlock>
           <OrderCodeButton
             disableRipple
             onClick={() => {
-              requestCode()
+              handleSubmit(secondsUntilCodeExpires > 0)
             }}
+            className={
+              secondsUntilCodeExpires > 0 && code.length === codeLength
+                ? 'is-active'
+                : ''
+            }
+            disabled={secondsUntilCodeExpires > 0 && code.length !== codeLength}
             ref={orderCodeButton}
             data-cy="getcode"
           >
-            {t('CodePrompt.GetCode')}
+            {secondsUntilCodeExpires <= 0
+              ? t('CodePrompt.GetCode')
+              : t('CodePrompt.Confirm')}
           </OrderCodeButton>
         </OrderCodeBlock>
       )}

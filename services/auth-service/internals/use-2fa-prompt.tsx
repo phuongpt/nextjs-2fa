@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react'
-import { TwoFactorAuthenticationModal } from '../../../components/two-factor-authentication/two-factor-authentication-modal'
+import { TwoFactorAuthenticationModal } from '@/components/two-factor-authentication/two-factor-authentication-modal'
 
 export type OnCodeCallback = (
   code: string,
@@ -42,7 +42,7 @@ export const use2faPrompt = (): {
         isUse2Fa={true}
       />
     )
-  },[])
+  }, [])
 
   return {
     Component: isRequesting2fa ? ModalComponent : NullComponent,

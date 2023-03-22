@@ -2,15 +2,16 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Router, { useRouter } from 'next/router'
 import { DateTime } from 'luxon'
-import Spacer from '../components/shared/spacer/spacer'
 import * as Auth from '../api/auth/methods'
-import { TwoFactorAuthenticationComponent } from '../components/two-factor-authentication/two-factor-authentication-component'
 import { Scrollbars } from 'react-custom-scrollbars'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
-import ArrowContinueIcon from '../components/shared/icons/arrow-continue'
-import { TERMS_AND_CONDITIONS } from '../constants'
+import { DEFAULT_PASSWORD, TERMS_AND_CONDITIONS } from '../constants'
+
 import { TextField } from '../components/shared/input/text-field/text-field'
+import ArrowContinueIcon from '../components/shared/icons/arrow-continue'
+import { TwoFactorAuthenticationComponent } from '../components/two-factor-authentication/two-factor-authentication-component'
+import Spacer from '../components/shared/spacer/spacer'
 import {
   PageContainer,
   StyledHeader,
@@ -37,7 +38,7 @@ import {
 
 const Login = () => {
   const router = useRouter()
-  const [password, setPassword] = useState('password1234')
+  const [password, setPassword] = useState(DEFAULT_PASSWORD || "")
   const [loginToken, setLoginToken] = useState('')
   const [show2fa, setShow2fa] = useState(false)
   const [email, setEmail] = useState('')
@@ -170,6 +171,7 @@ const Login = () => {
                 {!show2fa ? (
                   <>
                     <Spacer axis="y" size={50} />
+                    <h1>{t("SignIn.WelcomeBack")}</h1>
                     <form
                       onSubmit={(event) => {
                         event.preventDefault()

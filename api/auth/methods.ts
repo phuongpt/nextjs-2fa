@@ -1,4 +1,3 @@
-import { BASE_API_URL } from '../../constants'
 import { getTokens, setTokens } from '../../libs/auth/src'
 import { callApi } from '../call-api'
 import {
@@ -13,6 +12,7 @@ import {
   GetAutologinIdResponse,
   MakeAutologinResponse,
 } from './schemas'
+import isEmpty from 'lodash/isEmpty';
 
 export async function register(body: CreateUserRequest) {
   return await callApi('/auth/register', {
@@ -57,8 +57,9 @@ export async function logIn2fa(body: Login2faUserRequest) {
 }
 
 export async function logOut() {
+
   const { refreshToken } = getTokens()
-  if (!refreshToken) {
+  if (isEmpty(refreshToken)) {
     return null
   }
 

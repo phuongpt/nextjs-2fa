@@ -1,0 +1,359 @@
+[
+  {
+    "country": "Andorra",
+    "country_alpha2": "AD",
+    "country_alpha3": "AND",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Austria",
+    "country_alpha2": "AT",
+    "country_alpha3": "AUT",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Belgium",
+    "country_alpha2": "BE",
+    "country_alpha3": "BEL",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Switzerland",
+    "country_alpha2": "CH",
+    "country_alpha3": "CHE",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Czechia",
+    "country_alpha2": "CZ",
+    "country_alpha3": "CZE",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Germany",
+    "country_alpha2": "DE",
+    "country_alpha3": "DEU",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Denmark",
+    "country_alpha2": "DK",
+    "country_alpha3": "DNK",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Spain",
+    "country_alpha2": "ES",
+    "country_alpha3": "ESP",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Estonia",
+    "country_alpha2": "EE",
+    "country_alpha3": "EST",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Finland",
+    "country_alpha2": "FI",
+    "country_alpha3": "FIN",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "France",
+    "country_alpha2": "FR",
+    "country_alpha3": "FRA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_alpha2": "GB",
+    "country_alpha3": "GBR",
+    "document_types": [
+      "bank_building_society_statement",
+      "utility_bill",
+      "council_tax",
+      "benefit_letters"
+    ]
+  },
+  {
+    "country": "Gibraltar",
+    "country_alpha2": "GI",
+    "country_alpha3": "GIB",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Croatia",
+    "country_alpha2": "HR",
+    "country_alpha3": "HRV",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Hungary",
+    "country_alpha2": "HU",
+    "country_alpha3": "HUN",
+    "document_types": [
+      "bank_building_society_statement",
+      "utility_bill",
+      "address_certificate"
+    ]
+  },
+  {
+    "country": "Isle of Man",
+    "country_alpha2": "IM",
+    "country_alpha3": "IMN",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Ireland",
+    "country_alpha2": "IE",
+    "country_alpha3": "IRL",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Iceland",
+    "country_alpha2": "IS",
+    "country_alpha3": "ISL",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Italy",
+    "country_alpha2": "IT",
+    "country_alpha3": "ITA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Jersey",
+    "country_alpha2": "JE",
+    "country_alpha3": "JEY",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Liechtenstein",
+    "country_alpha2": "LI",
+    "country_alpha3": "LIE",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Lithuania",
+    "country_alpha2": "LT",
+    "country_alpha3": "LTU",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Luxembourg",
+    "country_alpha2": "LU",
+    "country_alpha3": "LUX",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Latvia",
+    "country_alpha2": "LV",
+    "country_alpha3": "LVA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Monaco",
+    "country_alpha2": "MC",
+    "country_alpha3": "MCO",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Malta",
+    "country_alpha2": "MT",
+    "country_alpha3": "MLT",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Netherlands",
+    "country_alpha2": "NL",
+    "country_alpha3": "NLD",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Norway",
+    "country_alpha2": "NO",
+    "country_alpha3": "NOR",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Poland",
+    "country_alpha2": "PL",
+    "country_alpha3": "POL",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Portugal",
+    "country_alpha2": "PT",
+    "country_alpha3": "PRT",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Romania",
+    "country_alpha2": "RO",
+    "country_alpha3": "ROU",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "San Marino",
+    "country_alpha2": "SM",
+    "country_alpha3": "SMR",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Slovakia",
+    "country_alpha2": "SK",
+    "country_alpha3": "SVK",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Slovenia",
+    "country_alpha2": "SI",
+    "country_alpha3": "SVN",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Sweden",
+    "country_alpha2": "SE",
+    "country_alpha3": "SWE",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "T\u00fcrkiye",
+    "country_alpha2": "TR",
+    "country_alpha3": "TUR",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Argentina",
+    "country_alpha2": "AR",
+    "country_alpha3": "ARG",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Brazil",
+    "country_alpha2": "BR",
+    "country_alpha3": "BRA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Canada",
+    "country_alpha2": "CA",
+    "country_alpha3": "CAN",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Colombia",
+    "country_alpha2": "CO",
+    "country_alpha3": "COL",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Mexico",
+    "country_alpha2": "MX",
+    "country_alpha3": "MEX",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "United States of America",
+    "country_alpha2": "US",
+    "country_alpha3": "USA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "United Arab Emirates",
+    "country_alpha2": "AE",
+    "country_alpha3": "ARE",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Hong Kong",
+    "country_alpha2": "HK",
+    "country_alpha3": "HKG",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Indonesia",
+    "country_alpha2": "ID",
+    "country_alpha3": "IDN",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Philippines",
+    "country_alpha2": "PH",
+    "country_alpha3": "PHL",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Singapore",
+    "country_alpha2": "SG",
+    "country_alpha3": "SGP",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Viet Nam",
+    "country_alpha2": "VN",
+    "country_alpha3": "VNM",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Australia",
+    "country_alpha2": "AU",
+    "country_alpha3": "AUS",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "New Zealand",
+    "country_alpha2": "NZ",
+    "country_alpha3": "NZL",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "C\u00f4te d'Ivoire",
+    "country_alpha2": "CI",
+    "country_alpha3": "CIV",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Ghana",
+    "country_alpha2": "GH",
+    "country_alpha3": "GHA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Kenya",
+    "country_alpha2": "KE",
+    "country_alpha3": "KEN",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Nigeria",
+    "country_alpha2": "NG",
+    "country_alpha3": "NGA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Senegal",
+    "country_alpha2": "SN",
+    "country_alpha3": "SEN",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Tanzania, United Republic of",
+    "country_alpha2": "TZ",
+    "country_alpha3": "TZA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "Uganda",
+    "country_alpha2": "UG",
+    "country_alpha3": "UGA",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  },
+  {
+    "country": "South Africa",
+    "country_alpha2": "ZA",
+    "country_alpha3": "ZAF",
+    "document_types": ["bank_building_society_statement", "utility_bill"]
+  }
+]

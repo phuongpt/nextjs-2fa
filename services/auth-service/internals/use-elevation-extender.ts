@@ -1,4 +1,4 @@
-import { refresh } from "../../../api/auth/methods"
+import { refresh } from "@/api/auth/methods"
 
 export const useElevationExtender = () => {
   return {

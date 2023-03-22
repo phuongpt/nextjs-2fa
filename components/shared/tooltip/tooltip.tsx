@@ -32,7 +32,7 @@ const TwoLevelTooltip = ({ title, description }: TwoLevelTooltipProps) => {
   )
 }
 
-export const ProSettleTooltip = ({
+export const Tooltip = ({
   title,
   children,
   placement,
@@ -76,4 +76,4 @@ export const ProSettleTooltip = ({
   )
 }
 
-export default ProSettleTooltip
+export default Tooltip

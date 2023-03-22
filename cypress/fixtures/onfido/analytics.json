@@ -1,0 +1,27 @@
+{
+  "event": {
+    "event_metadata": {
+      "domain": "http://localhost:4200/signup/onfido",
+      "os": "Macintosh",
+      "os_version": "10.15.7",
+      "browser": "Chrome",
+      "browser_version": "110.0.0.0",
+      "device": "desktop"
+    },
+    "session_uuid": "c46143e2-c5f3-48ae-b1f1-5f12c5eccc6e",
+    "applicant_uuid": "90b401a0-cb45-4fff-8d14-45e2772a137c",
+    "event_uuid": "6390b609-205c-48e9-905b-40e8f00e1570",
+    "source_metadata": { "version": "9.0.0", "platform": "onfido_web_sdk" },
+    "emitted_at": "2023-02-27T17:09:03.960Z",
+    "source": "sdk",
+    "source_event_uuid": "af241b8e-2115-4fdb-a673-5ba0b8fbd806",
+    "request_metadata": { "network": { "source_ip": "117.2.120.29" } },
+    "event_time": "2023-02-27T17:09:03.497000+00:00",
+    "sdk_config": { "expected_steps": "welcome,document,face,complete" },
+    "properties": { "event_type": "flow", "is_custom_ui": true },
+    "anonymous_uuid": "6a36d627-6188-4c81-af68-9d64b8b4ed7c",
+    "event": "FLOW_STARTED",
+    "client_uuid": "79c94a2e-dfc8-4086-90de-b3594ba3ef90"
+  },
+  "message": "c82d2652-9b3a-5373-8ada-7a247ed511e7"
+}

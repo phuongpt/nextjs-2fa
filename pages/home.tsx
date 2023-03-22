@@ -1,6 +1,6 @@
+import React from 'react';
 import { Typography } from '@mui/material';
 import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars'
 
 import {
@@ -10,9 +10,7 @@ import {
     LogoutButtonContainer,
     LogoutButton,
 } from '../components/home-page/home-page.styles'
-
-
-
+import { getTokens } from '../libs/auth/src';
 
 function WelcomePage() {
     const router = useRouter()
@@ -20,6 +18,8 @@ function WelcomePage() {
     const handleLogOut = () => {
         router.push('/logout')
     }
+
+    const tokens = getTokens()
     return (
         <PageContainer data-cy="homepage">
             <Scrollbars

@@ -1,0 +1,47 @@
+{
+  "controllingIndividualRoles": [
+    "USER",
+    "OWNER",
+    "DIRECTOR",
+    "SIGNATORY",
+    "OTHER"
+  ],
+  "accountUsageSources": [
+    "BUSINESS_REVENUE",
+    "EXTERNAL_SHAREHOLDER_INVESTMENT",
+    "LOAN_ADVANCE_OTHER_BORROWING",
+    "DONATIONS_GRANTS",
+    "INTER_COMPANY_TRANSFERS",
+    "PROCEEDS_SALE_ASSETS",
+    "OTHER"
+  ],
+  "accountUsagePurposes": [
+    "PAYING_GOODS_SERVICES",
+    "REPATRIATING_OVERSEAS_EARNINGS",
+    "INTER_COMPANY_TRANSFERS",
+    "COLLECTING_FUNDS_CLIENTS",
+    "PAYMENT_TO_INDIVIDUAL",
+    "INVESTMENT_ACTIVITY",
+    "PROPERTY_PURCHASE_SALE",
+    "OTHER"
+  ],
+  "estimatedMonthlyNumbers": [
+    "LESS_ONE",
+    "ONE_TWENTY",
+    "TWENTY_FIFTY",
+    "FIFTY_HUNDRED",
+    "PLUS_HUNDRED"
+  ],
+  "controllingIndividualRequirements": ["ADDRESS", "BIRTHDATE"],
+  "controllingIndividualOnfidoReportNames": [
+    "document",
+    "facial_similarity_photo"
+  ],
+  "estimatedMonthlyAmounts": [
+    { "first": 0, "second": 100000 },
+    { "first": 100000, "second": 500000 },
+    { "first": 500000, "second": 1000000 },
+    { "first": 1000000, "second": 5000000 },
+    { "first": 5000000, "second": 10000000 }
+  ]
+}

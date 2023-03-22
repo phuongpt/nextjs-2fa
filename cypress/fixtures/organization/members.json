@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "organizationId": 1,
+    "organizationName": "Name 1",
+    "personId": 1,
+    "title": null,
+    "firstName": "First 1",
+    "lastName": "Last 1",
+    "birthDate": "2000-02-12",
+    "email": "testemail@test.com",
+    "dialCode": "+34",
+    "mobileNumber": "666666666",
+    "avatar": null,
+    "status": "ACTIVE",
+    "organizationRole": "BASIC",
+    "otherInfo": null,
+    "createdAt": "2023-02-23T14:59:31.464298Z",
+    "updatedAt": "2023-02-23T14:59:31.464298Z",
+    "disabledAt": null
+  }
+]

@@ -1,4 +1,5 @@
 import jwt from 'jsonwebtoken'
+export const whiteList = new Set();
 
 interface TokenPayload {
   id: string
@@ -36,4 +37,12 @@ export const getAuthentication = (authHeader: string): TokenPayload | null => {
   }
 
   return decoded;
+}
+
+export function revokeToken(token: string) {
+  whiteList.delete(token);
+}
+
+export function addToken(token: string) {
+  whiteList.add(token);
 }

@@ -23,20 +23,7 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "baseUrl": ".",
-    "paths": {
-      "@app/shared/assets": [
-        "libs/shared/assets/src/index.ts"
-      ],
-      "@app/shared/styles": [
-        "libs/shared/styles/src/index.ts"
-      ],
-      "@app/shared/translations": [
-        "libs/shared/translations/src/index.ts"
-      ],
-      "@app/auth": [
-        "libs/auth/src/index.ts"
-      ]
-    }
+    "paths": {}
   },
   "exclude": [
     "node_modules",

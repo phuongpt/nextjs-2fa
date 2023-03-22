@@ -1,12 +1,12 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 
-import ProSettleTooltip from './tooltip'
+import Tooltip from './tooltip'
 
-describe('ProSettleTooltip', () => {
+describe('Tooltip', () => {
   it('should render successfully', () => {
     const { baseElement } = render(
-      <ProSettleTooltip title="Jest">Jest</ProSettleTooltip>
+      <Tooltip title="Jest">Jest</Tooltip>
     )
     expect(baseElement).toBeTruthy()
   })

@@ -1,75 +1,75 @@
 {
-    "presets": [
-        "next/babel"
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "preprocess": false,
+        "displayName": true
+      }
     ],
-    "plugins": [
-        [
-            "styled-components",
-            {
-                "ssr": true,
-                "preprocess": false,
-                "displayName": true
-            }
-        ],
-        [
-            "transform-imports",
-            {
-                "@app": {
-                    "transform": "@app/${member}",
-                    "preventFullImport": true
-                }
-            }
-        ]
-    ],
-    "env": {
-        "development": {
-            "presets": [
-                "next/babel"
-            ],
-            "plugins": [
-                [
-                    "styled-components",
-                    {
-                        "ssr": true,
-                        "displayName": true
-                    }
-                ]
-            ]
-        },
-        "test": {
-            "presets": [
-                [
-                    "next/babel",
-                    {
-                        "preset-env": {
-                            "modules": "commonjs"
-                        }
-                    }
-                ]
-            ],
-            "plugins": [
-                [
-                    "styled-components",
-                    {
-                        "ssr": true,
-                        "displayName": true
-                    }
-                ]
-            ]
-        },
-        "production": {
-            "presets": [
-                "next/babel"
-            ],
-            "plugins": [
-                [
-                    "styled-components",
-                    {
-                        "ssr": true,
-                        "displayName": true
-                    }
-                ]
-            ]
+    [
+      "transform-imports",
+      {
+        "@app": {
+          "transform": "@app/${member}",
+          "preventFullImport": true
         }
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "next/babel"
+      ],
+      "plugins": [
+        [
+          "styled-components",
+          {
+            "ssr": true,
+            "displayName": true
+          }
+        ]
+      ]
+    },
+    "test": {
+      "presets": [
+        [
+          "next/babel",
+          {
+            "preset-env": {
+              "modules": "commonjs"
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        [
+          "styled-components",
+          {
+            "ssr": true,
+            "displayName": true
+          }
+        ]
+      ]
+    },
+    "production": {
+      "presets": [
+        "next/babel"
+      ],
+      "plugins": [
+        [
+          "styled-components",
+          {
+            "ssr": true,
+            "displayName": true
+          }
+        ]
+      ]
     }
+  }
 }

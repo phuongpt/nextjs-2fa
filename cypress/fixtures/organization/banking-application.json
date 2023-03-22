@@ -1,0 +1,43 @@
+{
+  "businessDetails": {
+    "organizationLegalStructureId": 32,
+    "registeredName": "Name 1",
+    "tradingName": "Trade 1",
+    "companyNumber": "Number 1",
+    "incorporationDate": "2000-01-12"
+  },
+  "registeredAddress": null,
+  "tradingAddress": null,
+  "additionalDetails": null,
+  "accountUsage": null,
+  "internationalPaymentActivity": null,
+  "incomingActivity": null,
+  "controllingIndividuals": [
+    {
+      "id": "29c5d8ca-f38e-4f7c-9f31-b028c7088565",
+      "firstName": "First 1",
+      "lastName": "Last 1",
+      "roles": ["USER"],
+      "otherRole": null,
+      "ownerPercentage": null,
+      "country": "al",
+      "nationality": "ax",
+      "birthDate": "2000-02-12",
+      "homeAddress": {
+        "line": "Address 1",
+        "secondLine": "Address 2",
+        "city": "City 1",
+        "region": null,
+        "postalCode": "POSTALCODE 1"
+      },
+      "applicant": true,
+      "verified": false,
+      "requirements": ["ADDRESS", "BIRTHDATE"],
+      "onfidoReportNames": ["document", "facial_similarity_photo"],
+      "status": "PENDING"
+    }
+  ],
+  "countryCode": "DK",
+  "status": "PENDING",
+  "submittedAt": null
+}

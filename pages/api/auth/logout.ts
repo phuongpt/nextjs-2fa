@@ -1,6 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import jwt from 'jsonwebtoken';
-import { getAuthentication, getToken } from '../../helper';
+import { revokeToken } from '../../helper';
 
 type Data = {
     success: boolean,
@@ -8,22 +7,23 @@ type Data = {
     message?: string,
 }
 
-export default async function logout(req: NextApiRequest, res: NextApiResponse) {
+export default async function logout(req: NextApiRequest, res: NextApiResponse<Data>) {
 
     try {
-        const authHeader = req.headers.authorization || "";
-        const auth = getAuthentication(authHeader);
+        if (req.method === 'DELETE') {
+            const { token } = req.body;
+            if (!token) {
+                return res.status(401).json({ success: false, error: 'Unauthorized' });
+            }
 
+            revokeToken(token);
 
-        if (!auth) {
-            return res.status(401).json({ success: false, error: 'Unauthorized' });
+            return res.status(200).json({ success: true, message: 'Logged out successfully' });
+        } else {
+            res.status(405).json({ success: false, error: 'Method not allowed' });
         }
 
-        jwt.destroy(getToken(authHeader))
-
-        return res.status(200).json({ success: true, message: 'Logged out successfully' });
     } catch (error) {
-        console.error(error);
-        return res.status(500).json({ success: false, message: 'Internal server error' });
+        res.status(405).json({ success: false, error: error.message });
     }
 }

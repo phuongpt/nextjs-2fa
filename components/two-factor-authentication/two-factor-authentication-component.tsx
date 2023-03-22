@@ -1,11 +1,12 @@
 import React, { useCallback, useEffect, useState } from 'react'
 
-import { SecurityCodePromptWithConfirm } from '../security-code-prompt/security-code-prompt-with-confirm'
+import { SecurityCodePrompt } from '../security-code-prompt/security-code-prompt'
 import { AuthProcessingOverlay } from './auth-processing-overlay'
 
 import { StyledSecurityCodePromptWrapper } from './two-factor-authentication-component.styles'
 import { send2faCode } from '../../api/auth/methods'
 import { useCountdown } from '../../utils/use-countdown'
+import { DEFAULT_CODE } from '../../constants'
 
 const CODE_VALIDITY_PERIOD = 1000 * 60 * 5 // 5 minutes
 const RESEND_CODE_COOLDOWN = 1000 * 60 // 1 minute
@@ -119,10 +120,8 @@ export const TwoFactorAuthenticationComponent = ({
 
   return (
     <StyledSecurityCodePromptWrapper data-cy="twofactor">
-      <SecurityCodePromptWithConfirm
-        // TODO remove when have a real server
-        code={"123456"}
-        // code={code}
+      <SecurityCodePrompt
+        code={DEFAULT_CODE || code}
         isWaiting={isWaiting}
         isExpired={isExpired}
         isCodeError={isCodeError}

@@ -17,13 +17,11 @@ import { GlobalStyles } from '../styles/global-styles'
 import { Theme } from '../libs/shared/styles/src'
 
 import { AppDataProvider } from '../contexts/app-data-context'
-import { SWRConfig } from 'swr'
 import Head from 'next/head'
 import { AuthenticationTokenClaimsProvider, SessionManager, useTokenClaims } from '../libs/auth/src'
 import { AuthContextProvider, TokenClaims } from '../services/auth-service'
 import { unsetCurrentAuth, unsetCurrentUser } from '../redux/user/actions'
 import { LOG_OUT } from '../redux/auth/types'
-import { USER_SET_ACCOUNT_ID } from '../redux/user/types'
 import { logOut, refresh } from '../api/auth/methods'
 import { appWithTranslation } from 'next-i18next'
 
@@ -73,46 +71,41 @@ function App({ Component, pageProps }: AppProps) {
         <StylesProvider injectFirst>
           <Provider store={store}>
             <AppDataProvider>
-              <SWRConfig
-                value={{
-                  fetcher: (url) => fetch(url).then((res) => res.json()),
-                }}
-              >
-                <AuthenticationTokenClaimsProvider>
-                  <SessionManager
-                    onRefreshRequested={refresh}
-                    onSessionExpiry={logOut}
-                  />
-                  <LogOutActionDispatcher />
-                  <AuthContextProvider>
-                    <Head>
-                      <link
-                        rel="apple-touch-icon"
-                        sizes="180x180"
-                        href="/apple-touch-icon.png"
-                      />
-                      <link
-                        rel="icon"
-                        type="image/png"
-                        sizes="32x32"
-                        href="/favicon-32x32.png"
-                      />
-                      <link
-                        rel="icon"
-                        type="image/png"
-                        sizes="16x16"
-                        href="/favicon-16x16.png"
-                      />
-                      <link rel="manifest" href="/site.webmanifest" />
-                      <meta
-                        name="viewport"
-                        content="width=device-width, initial-scale=1"
-                      />
-                    </Head>
-                    <Component {...pageProps} />
-                  </AuthContextProvider>
-                </AuthenticationTokenClaimsProvider>
-              </SWRConfig>
+
+              <AuthenticationTokenClaimsProvider>
+                <SessionManager
+                  onRefreshRequested={refresh}
+                  onSessionExpiry={logOut}
+                />
+                <LogOutActionDispatcher />
+                <AuthContextProvider>
+                  <Head>
+                    <link
+                      rel="apple-touch-icon"
+                      sizes="180x180"
+                      href="/apple-touch-icon.png"
+                    />
+                    <link
+                      rel="icon"
+                      type="image/png"
+                      sizes="32x32"
+                      href="/favicon-32x32.png"
+                    />
+                    <link
+                      rel="icon"
+                      type="image/png"
+                      sizes="16x16"
+                      href="/favicon-16x16.png"
+                    />
+                    <link rel="manifest" href="/site.webmanifest" />
+                    <meta
+                      name="viewport"
+                      content="width=device-width, initial-scale=1"
+                    />
+                  </Head>
+                  <Component {...pageProps} />
+                </AuthContextProvider>
+              </AuthenticationTokenClaimsProvider>
             </AppDataProvider>
           </Provider>
         </StylesProvider>

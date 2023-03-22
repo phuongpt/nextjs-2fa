@@ -1,0 +1,19 @@
+{
+  "signup": {
+    "email": "email@test.com",
+    "countryCode": "DK",
+    "dialCode": null,
+    "phone": null,
+    "type": "COMPANY",
+    "emailVerified": false,
+    "phoneVerified": false,
+    "memberAdded": false,
+    "authCreated": false,
+    "status": "CREATED",
+    "autoLoginId": "a6640718-89e8-4755-8631-cf0086a614e5"
+  },
+  "inputData": {
+    "person": null,
+    "organization": null
+  }
+}

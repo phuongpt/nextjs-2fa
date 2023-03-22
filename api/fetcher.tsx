@@ -3,10 +3,8 @@ import axios from 'axios'
 import { BASE_API_URL } from '../constants/core'
 import { getTokens } from '../libs/auth/src'
 
-
 const IS_URL = /\/\//
 
-//remote
 export const fetcher = (
   pathOrUrl: string,
   options: RequestInit | undefined
@@ -19,13 +17,16 @@ export const fetcherWithAuth = (
   pathOrUrl: string,
   options: RequestInit | undefined
 ) => {
-  const tokens = getTokens()
+  const { accessToken } = getTokens()
+  if (!accessToken || accessToken.length === 0) {
+    return null
+  }
 
   return fetcher(pathOrUrl, {
     ...options,
     headers: {
       ...options?.headers,
-      Authorization: `Bearer ${tokens.accessToken}`,
+      Authorization: `Bearer ${accessToken}`,
     },
   })
 }

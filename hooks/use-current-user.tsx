@@ -3,16 +3,15 @@ import { useDispatch, useSelector } from 'react-redux'
 import {
   selectCurrentAuth,
   selectCurrentUser,
-} from "../redux/user/selectors"
+} from "@/redux/user/selectors"
 import {
   setCurrentAuth,
   setCurrentUser,
   unsetCurrentAuth,
   unsetCurrentUser,
-} from '../redux/user/actions'
-import { useAuthentication } from '../services/auth-service'
-import { getTokens } from '../libs/auth/src'
-import { fetcherWithAuth } from '../api/fetcher'
+} from '@/redux/user/actions'
+import { useAuthentication } from '@/services/auth-service'
+import { fetcherWithAuth } from '@/api/fetcher'
 
 export const useCurrentUser = () => {
   const [initial, setInitial] = useState<boolean>(false)

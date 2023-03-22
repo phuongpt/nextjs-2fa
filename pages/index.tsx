@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { useAuthentication } from '../services/auth-service'
-
+import { useAuthentication } from '@/services/auth-service'
 
 export const Index = () => {
   const router = useRouter()
