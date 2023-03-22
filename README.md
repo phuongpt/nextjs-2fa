@@ -1,4 +1,5 @@
 # NEXTJS-2FA
+[![Test CI](https://github.com/phuongpt/nextjs-2fa/actions/workflows/test.yml/badge.svg)](https://github.com/phuongpt/nextjs-2fa/actions/workflows/test.yml)
 
 This is a sample NextJS project that includes support for two-factor authentication, localization, Redux, styled-components, and Cypress testing. This project is intended to serve as a starting point for developers who want to build secure and scalable applications using NextJS.
 
