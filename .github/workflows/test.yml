@@ -9,5 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install packages
+      run: yarn install
     - name: Test app
       run: yarn run test
