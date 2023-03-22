@@ -7,7 +7,6 @@ This is a sample NextJS project that includes support for two-factor authenticat
 ## Screenshot
 ![](https://github.com/phuongpt/nextjs-2fa/blob/develop/docs/images/login.cy.ts.gif)
 
-```yarn install```
 ## Installation
 To install this project, simply clone the repository and run the following command:
 
