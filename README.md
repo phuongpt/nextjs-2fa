@@ -23,10 +23,10 @@ This will start the development server and open the application in your browser.
 
 
 ## Testing
-### This project includes Jest for testing. To run the tests, use the following command:
+#### This project includes Jest for testing. To run the tests, use the following command:
 
 ```yarn run test```
 
-### This project includes Cypress for testing. To run the tests, use the following command:
+#### This project includes Cypress for testing. To run the tests, use the following command:
 
 ```yarn run cypress```
